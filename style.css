@@ -1,5 +1,5 @@
 .body {
-    background-color: rgba(94, 62, 84, 0.24);
+    background-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     display: block;
     padding: auto;
@@ -19,15 +19,14 @@
 .box {
     width: 400px;
     height: 300px;
-    background-color: rgba(94, 62, 84, 0.24);
+    background-color: rgba(0, 0, 0, 0.356);
     padding-inline: 30px;
-    margin: 20px;
-    border-radius: 0%;
-    box-shadow: 15px 15px 15px rgba(0, 0, 0, 5.9);
+    margin: 20px;  
+    box-shadow: 2px 2px 2px rgba(0.9, 0, 0, 0.9);
 }
 
 .category {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(0, 0, 0);
     height: 120px;
 }
 
@@ -56,4 +55,53 @@
     display: flex;
     justify-content: center;
     padding-top: 5%; padding-bottom: 5%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equal-button {
+    width: 150px;
+    height: 50px; 
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(94, 91, 255);
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px; 
+}
+
+
+
+/* Reset default list styles and remove text decoration from links */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set link color */
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgb(0, 0, 0); /* Set background color for the navbar */
+    /* padding: 10px 0; Add padding to the navbar */
+}
+
+/* Style the links on hover */
+a:hover {
+    color: #fff; /* Change link color on hover */
 }

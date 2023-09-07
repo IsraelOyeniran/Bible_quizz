@@ -2,64 +2,87 @@
 <html lang="en">
 <head>
     <title>DAILY BIBLE STUDY PLANS AND QUIZ</title>
-    <link rel="stylesheet" href="bspq.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="category">
         <div class="categories">
             <img src="category_logo.jpg" alt="logo" class="logo">
             <font size="6">
-                <h1 style="margin-left: 200px; color: rgb(165, 135, 37);">READING PLAN CATEGORIES</h1> 
+                <h1 style="margin-left: 200px; color: rgb(255, 255, 255);">READING PLAN CATEGORIES</h1> 
             </font>
+        </div>
+    
+        <div id="link">
+            <li class="links">
+                <a style="font-size: small;" href="categories.html"><b>Back</b></a>
+                <a style="font-size: small;" href="about.html"><b>About</b></a>
+                <a style="font-size: small;" href="quiz.html"><b>Quiz</b></a>
+                <a style="font-size: small;" href="game.html"><b>Game</b></a>
+            </li>
         </div>
     </nav>
 
-    <div id="link">
-        <li class="links">
-            <a style="font-size: small;" href="index.html"><b>Home</b></a>
-            <a style="font-size: small;" href="about.html"><b>About</b></a>
-            <a style="font-size: small;" href="quiz.html"><b>Quiz</b></a>
-            <a style="font-size: small;" href="game.html"><b>Game</b></a>
-        </li>
-
     <div class="category-select">
         <div class="card">
-            <div class="category-contect">
-                <div class="button">
-                    <img src="children.jpg" alt="Picture" style="width: 250px;" height="150px; cli">
-                    <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-                    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-                    sans-serif; margin-top: 60px; margin-left: 50px;">
-                    Are a child between age 3 and 5 (Preschooler)? 
-                    click below to start a Bible study plan!</p>
-                </div>
+            <div class="button">
+                <img src="children.jpg" alt="Picture" style="width: 250px;" height="150px;">
+                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+                Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+                sans-serif; margin-top: 60px; margin-left: 50px; font-size: larger;">
+                Click <a href="child_plans.html" style="font-size: larger;">here</a>
+                to select your Bible study plan, if you are below 6, or
+                <a href="teen_plans.html" style="font-size: larger;">next</a> if you are above.</p> 
             </div>
-                    <button>
-                        <a href="" 
-                        style="text-decoration: none;" 
-                        target="_blank;">Start</a>
-                    </button>
-                </div>
+
+            <div class="button-container">
+                <button class="equal-button"><a href="index.html">Previous</a></button>
+                <button class="equal-button"><a href="teen_plans.html">Next</a></button>
+            </div>
+        </div>
+
+<!-- Only children plans will displayed on this page, at the click of next, 
+    teen plans will display in another tab or child plans will disappeared, 
+    when you click next again, adult plan will display in another tab or child plans will disappeared  -->
 
         <div class="card">
-            <img src="Teenagers.jpg" alt="Picture" style="width: 250px;" height="150px">
-            <p>Are a child between age 3 and 5? click below button to begin a Bible study plan!</p>
-            <button>
-                <a href="" 
-                style="text-decoration: none; margin: auto;" 
-                target="_blank">View More Photos</a>
-            </button>
+            <div class="button">
+                <img src="Teenagers.jpg" alt="Picture" style="width: 250px;" height="150px;">
+                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+                Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+                sans-serif; margin-top: 60px; margin-left: 50px; font-size: larger;">
+                Click <a href="child_plans.html" style="font-size: larger;">here</a>
+                to select your Bible study plan, if you are below 6, or
+                <a href="teen_plans.html" style="font-size: larger;">next</a> if you are above.</p> 
+            </div>
+
+            <div class="button-container">
+                <button class="equal-button"><a href="index.html">Previous</a></button>
+                <button class="equal-button"><a href="teen_plans.html">Next</a></button>
+            </div>
         </div>
 
         <div class="card">
-            <img src="adult.jpg" alt="Picture" style="width: 250px;" height="150px">
-            <button>
-                <a href="" 
-                style="text-decoration: none;" 
-                target="_blank">View More Photos</a>
-            </button>
+            <div class="button">
+                <img src="adult.jpg" alt="Picture" style="width: 250px;" height="150px;">
+                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+                Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+                sans-serif; margin-top: 60px; margin-left: 50px; font-size: larger;">
+                Click <a href="child_plans.html" style="font-size: larger;">here</a>
+                to select your Bible study plan, if you are below 6, or
+                <a href="teen_plans.html" style="font-size: larger;">next</a> if you are above.</p> 
+            </div>
+
+            <div class="button-container">
+                <button class="equal-button"><a href="index.html">Previous</a></button>
+                <button class="equal-button"><a href="teen_plans.html">Next</a></button>
+            </div>
         </div>
 
+    </div>
+
+    <div class="button-container">
+        <button class="equal-button"><a href="index.html">Home</a></button>
     </div>
 
 </body>
