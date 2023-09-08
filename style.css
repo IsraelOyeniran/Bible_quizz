@@ -76,9 +76,6 @@
     margin: 5px; 
 }
 
-
-
-/* Reset default list styles and remove text decoration from links */
 ul {
     list-style: none;
     margin: 0;
@@ -86,22 +83,20 @@ ul {
 }
 
 li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 20px; /* Add spacing between list items */
+    display: inline; 
+    margin-right: 20px; 
 }
 
 a {
-    text-decoration: none; /* Remove underline from links */
-    color: #333; /* Set link color */
+    text-decoration: none; 
+    color: #333; 
     font-weight: bold;
 }
 
 nav {
-    background-color: rgb(0, 0, 0); /* Set background color for the navbar */
-    /* padding: 10px 0; Add padding to the navbar */
+    background-color: rgb(0, 0, 0);
 }
 
-/* Style the links on hover */
 a:hover {
-    color: #fff; /* Change link color on hover */
+    color: #003cff;
 }
