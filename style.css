@@ -16,17 +16,18 @@
     padding: auto;
 }
   
-.box {
-    width: 400px;
-    height: 300px;
-    background-color: rgba(0, 0, 0, 0.356);
-    padding-inline: 30px;
-    margin: 20px;  
-    box-shadow: 2px 2px 2px rgba(0.9, 0, 0, 0.9);
+.box1 {
+    width: 600px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    /* padding-inline: 30px;
+    margin: 20px;   */
+    box-shadow: 2px 2px 2px 2px rgba(0.9, 0.9, 0.9, 0.9);
+    border-radius: 15px;
 }
 
-.category {
-    background-color: rgb(0, 0, 0);
+.category1 {
+    background-color: rgb(117, 64, 3);
     height: 120px;
 }
 
@@ -35,7 +36,7 @@
     width: 140px;
 }
 
-.categories {
+.categories1 {
     display: flex;
     text-align: center;
 }
