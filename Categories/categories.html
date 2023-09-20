@@ -6,90 +6,73 @@ style="font-family: system-ui, -apple-system,
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <title>DAILY BIBLE STUDY PLANS AND QUIZ.</title>
+    <title>DAILY BIBLE STUDY PLANS AND QUIZ</title>
 </head>
 
 <body>
-    <nav class="categories">
-        <div class="categories1">
-            <img src="photo_gallery/category_logo.jpg" alt="logo" class="logo">
-            <font size="6">
-                <h1 style="margin-left: 130px;
-                color: rgb(255, 255, 255);">READING PLAN CATEGORIES.</h1> 
-            </font>
-        </div>
-    
-        <div id="link">
-            <li class="links1">
-                <a style="font-size: small;" href="index.html">Home</a>
-                <a style="font-size: small;" href="about.html">About</a>
-                <a style="font-size: small;" href="Categories/categories.html">Categories</a>
-                <a style="font-size: small;" href="quiz.html">Quiz</a>
-                <a style="font-size: small;" href="game.html">Game</a>
-            </li>
-        </div>
+    <nav class="index">
+        <img src="photo_gallery/category_logo.jpg" alt="logo" class="logo">
+        <font size="10" style="margin-left: 200px; padding: 25px;">
+        <b>READING PLAN CATEGORIES</b></font>
     </nav>
-    <br><br>
+    
+    <li class="links">
+        <a style="font-size: small;" href="Home/index.html">Home</a>
+        <a style="font-size: small;" href="About/about.html">About</a>
+        <a style="font-size: small;" href="categories.html">Categories</a>
+        <a style="font-size: small;" href="quiz.html">Quiz</a>
+        <a style="font-size: small;" href="game.html">Game</a>
+    </li><br><br>
 
-    <div class="category-select">
-        <div class="card">
-            <div class="button">
-                <img src="photo_gallery/children.jpg" alt="Picture" style="width: 250px;" height="150px;">
-                <p style="margin-top: 60px; margin-left: 50px; font-size: larger;">
-                Click <a href="child_plans.html" style="font-size: larger;">here</a>
-                to select your Bible study plan, if you are below 6year, or
-                <a href="teen_plans.html" style="font-size: larger;">next</a> if you are above.</p> 
-            </div>
-
-            <div class="button-container">
-                <button class="equal-button5"><a href="about.html">Previous</a></button>
-                <button class="equal-button6"><a href="teen_plans.html">Next</a></button>
-            </div>
-        </div>
-
-            <!-- Only children plans will displayed on this page, at the click of next, 
-            teen plans will display in another tab or child plans will disappeared, 
-            when you click next again, adult plan will display in another tab or child plans will disappeared  -->
-
-        <div class="card">
-            <div class="button">
-                <img src="photo_gallery/Teenagers.jpg" alt="Picture" style="width: 250px;" height="150px;">
-                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-                Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-                sans-serif; margin-top: 60px; margin-left: 50px; font-size: larger;">
-                Click <a href="teen_plans.html" style="font-size: larger;">here</a>
-                to select your Bible study plan, if you are below 20years, or
-                <a href="adult_plans.html" style="font-size: larger;">next</a> if you are above.</p> 
-            </div>
-
-            <div class="button-container">
-                <button class="equal-button5"><a href="categories.html">Previous</a></button>
-                <button class="equal-button6"><a href="adult_plans.html">Next</a></button>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="button">
-                <img src="photo_gallery/adult.jpg" alt="Picture" style="width: 250px;" height="150px;">
-                <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-                Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-                sans-serif; margin-top: 60px; margin-left: 50px; font-size: larger;">
-                Click <a href="adult_plans.html" style="font-size: larger;">here</a>
-                to select your Bible study plan, if you are  20years and older or
-                <a href="categories.html" style="font-size: larger;">next</a> to go back.</p> 
-            </div>
-
-            <div class="button-container">
-                <button class="equal-button5"><a href="categories.html">Previous</a></button>
-                <button class="equal-button6"><a href="adult_plans.html">Next</a></button>
-            </div>
-        </div>
-
+    <div class="card">
+        <div class="button">
+            <img src="photo_gallery/children.jpg" style="padding-left: 20px">
+            <p style="padding: 30px;">Click <a href="child_plans.html">here</a>
+            to select your Bible study plan, if you are below 6years, or
+            <a href="teen_plans.html">next</a> if you are above.</p> 
+        </div><br>
+            
+        <div class="button-container">
+            <button class="equal-button"><a href="about.html">Previous</a></button>
+            <button class="equal-button"><a href="teen_plans.html">Next</a></button>
+        </div><br>
     </div>
 
-    <div class="button-container">
-        <button class="equal-button"><a href="index.html">Home</a></button>
+
+                <!-- Only children plans will displayed on this page, at the click of next, 
+                teen plans will display in another tab or child plans will disappeared, 
+                when you click next again, adult plan will display in another tab or child plans will disappeared  -->
+
+    <div class="card">
+        <div class="button">
+            <img src="photo_gallery/Teenagers.jpg" style="padding-left: 20px">
+            <p style="padding: 30px;">Click <a href="teen_plans.html">here</a>
+            to select your Bible study plan, if you are below 20years, or
+            <a href="teen_plans.html">next</a> if you are above.</p> 
+        </div><br>
+
+        <div class="button-container">
+            <button class="equal-button"><a href="categories.html">Previous</a></button>
+            <button class="equal-button"><a href="adult_plans.html">Next</a></button>
+        </div><br>
     </div>
 
+    <div class="card">
+        <div class="button">
+            <img src="photo_gallery/adult.jpg" style="padding-left: 20px">
+            <p style="padding: 30px;">Click <a href="adult_plans.html">here</a>
+            to select your Bible study plan, if you are  20years and older or
+            <a href="categories.html">next</a> to go back.</p> 
+        </div><br>
+
+        <div class="button-container">
+            <button class="equal-button"><a href="categories.html">Previous</a></button>
+            <button class="equal-button"><a href="adult_plans.html">Next</a></button>
+        </div><br>
+        </div>
+
+        <div class="button-container">
+            <button class="equal-button"><a href="index.html">Home</a></button>
+        </div>
 </body>
 </html>
