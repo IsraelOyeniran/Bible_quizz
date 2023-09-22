@@ -1,6 +1,6 @@
 nav.child {
     margin-left: 0;
-    background-color: rgba(63, 35, 95, 0.801);
+    background-color: #ccc;
     display: flex;
     display: 0;
     height: 140px;
@@ -8,9 +8,14 @@ nav.child {
     border-style: outset;
     border-width: 3px;
     border-color: rgb(0, 0, 0);
-    color: palevioletred;
+    color: rgb(0, 0, 0);
     font-weight: bolder;
     box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
+}
+
+body {
+    background-color: #ccc;
+    forced-color-adjust: ;
 }
 
 a {
@@ -66,11 +71,10 @@ a {
         font-size: xx-large;
         font-weight: bold;
         color: rgb(0, 0, 0);
-        background-color: powderblue;
     }
 }
 
-.button {
+/* .button {
     display: flex;
     justify-content: center;
     padding-top: 5%; 
@@ -78,7 +82,7 @@ a {
     height: 150px;
     border-style: outset;
     border-width: 15px;
-}
+} */
 
 .button-container {
     display: flex;
@@ -100,5 +104,5 @@ a {
 }
 
 a:hover {
-    color: palevioletred;
+    color: powderblue;
 } 
