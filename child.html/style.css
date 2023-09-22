@@ -15,7 +15,6 @@ nav.child {
 
 body {
     background-color: #ccc;
-    forced-color-adjust: ;
 }
 
 a {
@@ -53,7 +52,7 @@ a {
     }
 
     nav {
-        background-color: rgba(63, 35, 95, 0.801);
+        background-color: rgba(137, 125, 150, 0.801);
         border-style: outset;
         border-width: 0;
         border-color: rgb(0, 0, 0);
@@ -73,16 +72,6 @@ a {
         color: rgb(0, 0, 0);
     }
 }
-
-/* .button {
-    display: flex;
-    justify-content: center;
-    padding-top: 5%; 
-    padding-bottom: 5%;
-    height: 150px;
-    border-style: outset;
-    border-width: 15px;
-} */
 
 .button-container {
     display: flex;
