@@ -1,50 +1,75 @@
-nav.index {
+nav.teens {
     margin-left: 0;
-    background-color: rgba(22, 22, 22, 0.801);
+    background-color: #ccc;
     display: flex;
     display: 0;
-    height: 120px;
+    height: 140px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
     border-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255); 
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
     box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
+}
+
+body {
+    background-color: #ccc;
 }
 
 a {
     text-decoration: none; 
     color: #000000; 
-    font-weight: bold   ;
+    font-weight: bold;
     padding: auto;
-    padding-right: 0.5%;
+    padding-left: 1%;
 }
 
-li.link {
+.link {
     text-decoration: none; 
     color: #000000; 
-    font-weight: bold   ;
+    font-weight: bold;
     padding: auto;
-    padding-right: 0.5%;
+    padding-right: 1%;
 }
 
-.card {
-    box-shadow: 0 2px 2px 2px;
-    margin-top: 20px; 
-    font-size: larger;
-    max-width: 850px;
-    margin: 60px auto;
-    padding: 15px;
-}
+.box {
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 5);
+    padding: 50px;
+    padding-top: 0px;
+    margin: auto;
+    background-color: #fff;
+    
+    b {
+        margin: auto;
+        font-size: 100px;
+        margin: right;
+        color: #ff004c;
+    }
 
-.button {
-    display: flex;
-    justify-content: center;
-    padding-top: 5%; 
-    padding-bottom: 5%;
-    height: 150px;
-    border-style: outset;
-    border-width: 15px;
+    nav {
+        background-color: rgba(137, 125, 150, 0.801);
+        border-style: outset;
+        border-width: 0;
+        border-color: rgb(0, 0, 0);
+        box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: center;
+    }
+
+    p {
+        font-size: 16px;
+        margin: center;
+        font-size: xx-large;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
 }
 
 .button-container {
@@ -58,7 +83,7 @@ li.link {
     height: 30px; 
     text-align: center;
     font-size: 16px;
-    background-color: rgba(22, 22, 22, 0.801);
+    background-color: rgb(63, 35, 95);
     color: #0e0d0d; 
     border-radius: 15px;
     cursor: pointer;
@@ -67,112 +92,5 @@ li.link {
 }
 
 a:hover {
-    color: #ff0000;
-}
-
-
-
-/* 
-.equal-button1 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 108, 122);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-.equal-button2 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 108, 122);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-.equal-button3 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 0, 0);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-.equal-button4 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 0, 0);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-left: 35%;
-}
-
-.equal-button5 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 108, 122);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-.equal-button6 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 108, 122);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-a {
-    text-decoration: none; 
-    color: #000000; 
-    font-weight: bold   ;
-    padding: auto;
-    padding-right: 0.5%;
-}
-
-.link1 {
-    text-decoration: none; 
-    color: #000000; 
-    font-weight: bold   ;
-    padding: auto;
-    padding-right: 0.5%;
-    
-}
-
-nav {
-    background-color: rgb(0, 0, 0);
-    display: 0;
-}
-
-a:hover {
-    color: #1900ff;
-}  */
+    color: powderblue;
+} 
