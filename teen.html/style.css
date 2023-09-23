@@ -14,12 +14,12 @@ nav.teens {
 }
 
 body {
-    background-color: #ccc;
+    background-color: #ffffffa9;
 }
 
 a {
     text-decoration: none; 
-    color: #000000; 
+    color: #f80067; 
     font-weight: bold;
     padding: auto;
     padding-left: 1%;
@@ -27,7 +27,7 @@ a {
 
 .link {
     text-decoration: none; 
-    color: #000000; 
+    color: #ff008c; 
     font-weight: bold;
     padding: auto;
     padding-right: 1%;
@@ -59,11 +59,11 @@ a {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 20px;
         margin: center;
     }
 
-    p {
+    strong {
         font-size: 16px;
         margin: center;
         font-size: xx-large;
