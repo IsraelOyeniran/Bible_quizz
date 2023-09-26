@@ -1,4 +1,4 @@
-body nav.welcomepage {
+nav.welcomepage {
     margin-left: center;
     background-color: rgba(139, 106, 32, 0.836);
     display: flex;
@@ -11,15 +11,7 @@ body nav.welcomepage {
     border-color: rgba(139, 106, 32, 0.836);
     color:rgb(51, 35, 1); 
     box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
-
-    nav.b {
-        text-align: center;
-    }
-
-    body .bottom {
-        text-align: center;
-        font-size: x-large;
-    }
+    
 }
 
 .logo {
@@ -43,33 +35,45 @@ li.link {
     padding-right: 0.5%;
 }
 
-.box {
-    border-radius: 40px;
-    max-width: 850px;
-    background-color: white;
-    margin: auto;
-    padding: 50px;
-    border-style: outset;
-    border-width: 15px;
-    border-color: rgb(0, 108, 122);
-    text-align: center;
-    box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
-}
-
 .equal-button {
-    justify-self: center;
     width: 500px;
     height: 100px; 
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
     background-color: rgba(139, 106, 32, 0.836);
     color: #0e0d0d; 
     border-radius: 15px;
     cursor: pointer;
-    margin: 20px; 
+    margin: 40px; 
     box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
 }
 
 a:hover {
-    color: #1900ff;
+    color: #ffffff;
 } 
+
+nav.welcomepage2 {
+    margin: center;
+    background-color: rgba(139, 106, 32, 0.836);
+    display: flex;
+    display: 0;
+    color: rgb(0, 0, 0); 
+    height: 20px;
+    max-width: auto;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgba(139, 106, 32, 0.836);
+    color:rgb(51, 35, 1); 
+    box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
+
+    a {
+        text-decoration: none; 
+        color: #000000; 
+        font-weight: bold   ;
+        padding: auto;
+        /* padding-right: 0.5%; */
+        margin-right: 1200px;
+    }
+    
+}
+
