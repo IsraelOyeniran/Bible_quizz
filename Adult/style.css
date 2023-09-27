@@ -1,18 +1,15 @@
 nav.adults {
-    margin-left: 0;
-    background-color: #968181a9;
+    margin-left: center;
+    background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
     display: 0;
     height: 120px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
-    border-color: #968181a9;
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
-    box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
-
-    
+    border-color: rgba(2, 27, 168, 0.589); 
+    color:rgb(255, 255, 255); 
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);     
 }
 
 .logo {
@@ -21,24 +18,31 @@ nav.adults {
 }
 
 body {
-    background-color: #968181a9;
+    background-color: rgb(253, 253, 253);
+    background-position-x: center;
+    background-position-y: center;
 }
 
 a {
     text-decoration: none; 
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+    color:rgb(255, 255, 255); 
+    font-weight: bold  ;
     padding: auto;
-    padding-left: 1%;
+    padding-right: 1%;
 }
 
-.link {
-    text-decoration: none; 
-    color: rgb(0, 0, 0);
+.links {
+    text-decoration: none;
+    color: #000000; 
     font-weight: bold;
     padding: auto;
     padding-right: 1%;
 }
+
+a:hover {
+    color: rgb(255, 0, 0);
+} 
+
 
 /* .box {
     width: 600px;
@@ -98,6 +102,3 @@ a {
     box-shadow: 5px 2px 5px 5px rgba(5.9, 5.9, 5.9, 5.9);
 } */
 
-a:hover {
-    color: rgb(255, 0, 0);
-} 

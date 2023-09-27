@@ -1,38 +1,42 @@
 nav.about {
-    margin-left: 0;
-    background-color: rgba(255, 174, 0, 0.836);
+    margin-left: center;
+    background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
     display: 0;
-    color: rgb(0, 0, 0); 
-    padding-left: 0px;
     height: 120px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
-    border-color: rgba(255, 174, 0, 0.836);
-    color: rgb(0, 0, 0); 
-    box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
+    border-color: rgba(2, 27, 168, 0.589); 
+    color:rgb(255, 255, 255); 
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);     
 }
 
 .logo {
     height: 120px;
-    width: 140px;
+    width: 250px;
+}
+
+body {
+    background-color: rgb(253, 253, 253);
+    background-position-x: center;
+    background-position-y: center;
 }
 
 a {
     text-decoration: none; 
-    color: #000000; 
-    font-weight: bold   ;
+    color:rgb(255, 255, 255); 
+    font-weight: bold  ;
     padding: auto;
-    padding-right: 0.5%;
+    padding-right: 1%;
 }
 
-li.link {
-    text-decoration: none; 
+.links {
+    text-decoration: none;
     color: #000000; 
-    font-weight: bold   ;
+    font-weight: bold;
     padding: auto;
-    padding-right: 0.5%;
+    padding-right: 1%;
 }
 
 .box {
@@ -43,7 +47,7 @@ li.link {
     padding: 50px;
     border-style: outset;
     border-width: 15px;
-    border-color: rgba(255, 174, 0, 0.836);
+    border-color: rgba(2, 27, 168, 0.589);
     text-align: center;
     box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
 }
@@ -53,7 +57,7 @@ li.link {
     height: 30px; 
     text-align: center;
     font-size: 16px;
-    background-color: rgba(255, 174, 0, 0.836);
+    background-color: rgba(2, 27, 168, 0.589);
     color: #0e0d0d; 
     border-radius: 15px;
     cursor: pointer;
@@ -62,5 +66,10 @@ li.link {
 }
 
 a:hover {
-    color: #1900ff;
+    color: rgb(255, 0, 0);
 } 
+
+h3:hover {
+    color: rgb(255, 0, 0);
+} 
+
