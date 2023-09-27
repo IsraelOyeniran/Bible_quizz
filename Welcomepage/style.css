@@ -1,40 +1,49 @@
-nav.welcomepage {
+.welcome {
     margin-left: center;
-    background-color: rgba(139, 106, 32, 0.836);
+    background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
     display: 0;
-    color: rgb(0, 0, 0); 
+    color: rgb(255, 0, 0); 
     height: 120px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
-    border-color: rgba(139, 106, 32, 0.836);
-    color:rgb(51, 35, 1); 
-    box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
-    
-    .logo {
-        height: 120px;
-        width: 250px;
-    }
-    
-    
+    border-color: rgba(2, 27, 168, 0.589); 
+    color:rgb(255, 255, 255); 
+    box-shadow: 5px 8px 0px 0px rgba(19, 5.9, 5.9, 19);      
 }
 
+.logo {
+    height: 120px;
+    width: 250px;
+}
+
+body {
+    background-color: rgba(0, 102, 255, 0.267);
+}
 
 a {
     text-decoration: none; 
-    color:rgb(51, 35, 1); 
-    font-weight: bolder  ;
+    color:rgb(255, 255, 255); 
+    font-weight: bold  ;
     padding: auto;
     padding-right: 0.5%;
 }
 
-li.link {
+.links {
     text-decoration: none;
     color: #000000; 
-    font-weight: bolder;
+    font-weight: bold;
     padding: auto;
     padding-right: 0.5%;
+}
+
+p {
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+    
 }
 
 .equal-button {
@@ -42,8 +51,8 @@ li.link {
     height: 100px; 
     text-align: center;
     font-size: 30px;
-    background-color: rgba(139, 106, 32, 0.836);
-    color: #0e0d0d; 
+    background-color: rgba(2, 27, 168, 0.589); 
+    color: #ffffff; 
     border-radius: 15px;
     cursor: pointer;
     margin: 40px; 
@@ -52,10 +61,18 @@ li.link {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #ff0000;
 } 
 
-nav.welcomepage2 {
+p {
+    color: #000;
+}
+
+p:hover {
+    color: #ff0000;
+}
+
+nav.welcome2 {
     margin: center;
     background-color: rgba(139, 106, 32, 0.836);
     display: flex;

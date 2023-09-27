@@ -63,3 +63,18 @@ li.link {
 a:hover {
     color: #1900ff;
 } 
+
+nav.index2 {
+    margin-right: auto;
+    background-color: rgb(0, 108, 122);
+    display: flex;
+    display: 0;
+    color: rgb(0, 0, 0); 
+    height: 20px;
+    max-width: auto;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgb(0, 108, 122);
+    color: rgb(0, 0, 0); 
+    box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
+}

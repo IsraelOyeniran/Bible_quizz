@@ -1,7 +1,18 @@
-body {
+.header {
+    min-height: 120px;
+}
+
+.header-default {
+    background-color: #005596;
+    border-color: #005596;
+
+}
+
+
+/* body {
     margin: 0;
     padding: 0;
-    background-image: url(photo_gallery/photo.jfif); 
+    background-image: url(); 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -12,7 +23,7 @@ body {
 .content {
     text-align: center; 
     padding: 100px; 
-}
+} */
 
 
 /* .quiz {

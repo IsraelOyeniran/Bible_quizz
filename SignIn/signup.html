@@ -11,28 +11,22 @@ style="font-family: system-ui, -apple-system,
 
 <body>
     <hr><nav class="signup">
-        <div class="signup1">
-            <img src="photo_gallery/Header_image.jpg" alt="logo" class="logo">
-            <font size="6">
-                <h1 style="margin-left: 250px;
-                color: rgb(255, 255, 255);">BIBLE STUDY PLAN AND QUIZ</h1> 
-            </font>
-        </div>
-    
-        <div id="link">
-            <li class="links1">
-                <a style="font-size: small;" href="/Home/index.html">Home</a>
-                <a style="font-size: small;" href="/About/about.html">About</a>
-                <a style="font-size: small;" href="/Categories/categories.html">Categories</a>
-                <a style="font-size: small;" href="/Quiz/quiz.html">Quiz</a>
-                <a style="font-size: small;" href="/Game/game.html">Game</a><hr>
-            </li>
-        </div>
+        <img src="photo_gallery/about.jfif" alt="logo" class="logo">
+        <font size="10" style="margin-left: 250px; padding: 25px;">
+        <b>BIBLE STUDY PLAN AND QUIZ</b></font>
     </nav>
+   
+    <li class="links">
+        <a style="font-size: small;" href="/Home/index.html">Home</a>
+        <a style="font-size: small;" href="/About/about.html">About</a>
+        <a style="font-size: small;" href="/Categories/categories.html">Categories</a>
+        <a style="font-size: small;" href="/Quiz/quiz.html">Quiz</a>
+        <a style="font-size: small;" href="/Game/game.html">Game</a><hr>
+    </li>
     
-    <div class="container2">
-        <font size="4">
-            <div class="box2">
+    <div class="container">
+        <font size="4.5">
+            <div class="box">
                 <fieldset >
                     <p style="text-align: center;">Complete your information below to Start
                     <strong style="color: rgb(122, 0, 37);">Bible Study Plan...</strong></p><br><br>
@@ -40,17 +34,17 @@ style="font-family: system-ui, -apple-system,
                     <legend style="color: rgb(122, 0, 37);"><strong>Personal Information:</strong></legend>
                     
                     <strong>
-                    <label for="name">First name:</label>
-                    <input type="password" class="form-control" placeholder="First name" size="40"><br><br>
-                    <label for="name">Last name:</label>
-                    <input type="password" class="form-control" placeholder="Last name" size="40"><br><br>
-                    <label for="name">Enter your gender:</label>
-                    <input type="password" class="form-control" placeholder="Gender" size="40"><br><br>
-                    <label for="birthdate">Enter your DOB:</label>
+                    <label form="name">First name:</label>
+                    <input type="text" class="form-control" placeholder="First name" size="40"><br><br>
+                    <label form="name">Last name:</label>
+                    <input type="text" class="form-control" placeholder="Last name" size="40"><br><br>
+                    <label form="name">Enter your gender:</label>
+                    <input type="text" class="form-control" placeholder="Gender" size="40"><br><br>
+                    <label form="birthdate">Enter your DOB:</label>
                     <input type="date" id="birthdate"><br><br>
-                    <label for="name">Create password:</label>
+                    <label form="name">Create password:</label>
                     <input type="password" class="form-control" placeholder="Password" size="40"><br><br>
-                    <label for="name">Confirm password:</label>
+                    <label form="name">Confirm password:</label>
                     <input type="password" class="form-control" placeholder="Confirm Password" size="40"><br><br>
                     </strong>
                     <p style="text-align: center;">Please, check all the information above
@@ -59,7 +53,10 @@ style="font-family: system-ui, -apple-system,
                 </fieldset>
                 <br>
                 <br>
-                <button class="equal-button3"><a href="/About/about.html">Sign Up</a></button>
+
+                <div class="button-input">
+                    <button class="equal-button"><a href="/About/about.html">Sign Up</button>
+                </div>
             </div>
         </font>
     </div> 
