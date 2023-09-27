@@ -1,20 +1,20 @@
 nav.child {
-    margin-left: 0;
-    background-color: #ccc;
+    margin-left: center;
+    background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
     display: 0;
-    height: 140px;
+    color: rgb(255, 0, 0); 
+    height: 120px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
-    border-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    font-weight: bolder;
-    box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
+    border-color: rgba(2, 27, 168, 0.589); 
+    color:rgb(255, 255, 255); 
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);
 }
 
 body {
-    background-color: #ccc;
+    background-color: #ffffff;
 }
 
 a {
@@ -23,6 +23,7 @@ a {
     font-weight: bold;
     padding: auto;
     padding-left: 1%;
+    margin-top: auto;
 }
 
 .link {
@@ -30,7 +31,7 @@ a {
     color: rgb(0, 0, 0);
     font-weight: bold;
     padding: auto;
-    padding-right: 1%;
+    padding-right: 0%;
 }
 
 .box {

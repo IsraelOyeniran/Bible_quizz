@@ -3,14 +3,13 @@
     background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
     display: 0;
-    color: rgb(255, 0, 0); 
     height: 120px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
     border-color: rgba(2, 27, 168, 0.589); 
     color:rgb(255, 255, 255); 
-    box-shadow: 5px 8px 0px 0px rgba(19, 5.9, 5.9, 19);      
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);     
 }
 
 .logo {
@@ -19,7 +18,9 @@
 }
 
 body {
-    background-color: rgba(0, 102, 255, 0.267);
+    background-color: rgb(253, 253, 253);
+    background-position-x: center;
+    background-position-y: center;
 }
 
 a {
@@ -27,7 +28,7 @@ a {
     color:rgb(255, 255, 255); 
     font-weight: bold  ;
     padding: auto;
-    padding-right: 0.5%;
+    padding-right: 1%;
 }
 
 .links {
@@ -35,7 +36,7 @@ a {
     color: #000000; 
     font-weight: bold;
     padding: auto;
-    padding-right: 0.5%;
+    padding-right: 1%;
 }
 
 p {
@@ -61,30 +62,29 @@ p {
 }
 
 a:hover {
-    color: #ff0000;
+    color: #000000;
 } 
 
-p {
-    color: #000;
+h1 {
+    color: #ff0000;
+    text-align: center;
 }
 
-p:hover {
-    color: #ff0000;
+h1:hover {
+    color: #000000;
 }
 
 nav.welcome2 {
-    margin: center;
-    background-color: rgba(139, 106, 32, 0.836);
+    margin-left: center;
+    background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
     display: 0;
-    color: rgb(0, 0, 0); 
     height: 20px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
-    border-color: rgba(139, 106, 32, 0.836);
-    color:rgb(51, 35, 1); 
-    box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
-
+    border-color: rgba(2, 27, 168, 0.589); 
+    color:rgb(255, 255, 255); 
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);
 }
 
