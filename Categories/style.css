@@ -25,19 +25,28 @@ body {
 
 a {
     text-decoration: none; 
-    color:rgb(17, 0, 255); 
+    color:rgb(255, 255, 255); 
     font-weight: bold  ;
     padding: auto;
     padding-right: 1%;
 }
 
+strong {
+    color: #000;
+}
+
+b {
+    color: black;
+}
+
 .links {
     text-decoration: none;
-    color: #ffffff; 
+    color: #000000; 
     font-weight: bold;
     padding: auto;
-    padding-right: 1%;
+    padding-right: 1%; 
 }
+
 
 .card {
     box-shadow: 0 2px 2px 2px;
@@ -62,6 +71,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 .equal-button {
@@ -69,7 +79,7 @@ a {
     height: 30px; 
     text-align: center;
     font-size: 16px;
-    background-color: rgba(2, 27, 168, 0.589); 
+    background-color: rgb(255, 255, 255); 
     color: #0e0d0d; 
     border-radius: 15px;
     cursor: pointer;
@@ -80,110 +90,3 @@ a {
 a:hover {
     color: #ff0000;
 }
-
-
-
-/* 
-.equal-button1 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 108, 122);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-.equal-button2 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 108, 122);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-.equal-button3 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 0, 0);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-.equal-button4 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 0, 0);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin-left: 35%;
-}
-
-.equal-button5 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 108, 122);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-.equal-button6 {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgb(0, 108, 122);
-    color: #fff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-}
-
-a {
-    text-decoration: none; 
-    color: #000000; 
-    font-weight: bold   ;
-    padding: auto;
-    padding-right: 0.5%;
-}
-
-.link1 {
-    text-decoration: none; 
-    color: #000000; 
-    font-weight: bold   ;
-    padding: auto;
-    padding-right: 0.5%;
-    
-}
-
-nav {
-    background-color: rgb(0, 0, 0);
-    display: 0;
-}
-
-a:hover {
-    color: #1900ff;
-}  */
