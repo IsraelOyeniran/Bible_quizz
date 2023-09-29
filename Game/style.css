@@ -1,4 +1,4 @@
-nav.quiz {
+nav.game {
     margin-left: center;
     background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
@@ -76,7 +76,7 @@ a:hover {
     color: rgb(255, 0, 0);
 } 
 
-nav.quiz2 {
+nav.game2 {
     margin-left: center;
     background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
@@ -90,9 +90,7 @@ nav.quiz2 {
     box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);    
 }
 
-
-
-/* nav.quiz {
+/* nav.game {
     margin-left: center;
     background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
@@ -137,7 +135,7 @@ a:hover {
     color: rgb(255, 0, 0);
 } 
 
-nav.quiz2 {
+nav.game2 {
     margin-left: center;
     background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
