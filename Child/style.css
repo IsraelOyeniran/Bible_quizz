@@ -3,40 +3,45 @@ nav.child {
     background-color: rgba(2, 27, 168, 0.589); 
     display: flex;
     display: 0;
-    color: rgb(255, 0, 0); 
     height: 120px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
     border-color: rgba(2, 27, 168, 0.589); 
     color:rgb(255, 255, 255); 
-    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);     
+}
+
+.logo {
+    height: 120px;
+    width: 250px;
 }
 
 body {
-    background-color: #ffffff;
+    background-color: rgb(253, 253, 253);
+    background-position-x: center;
+    background-position-y: center;
 }
 
 a {
     text-decoration: none; 
-    color: rgb(0, 0, 0);
-    font-weight: bold;
+    color:rgb(255, 255, 255); 
+    font-weight: bold  ;
     padding: auto;
-    padding-left: 1%;
-    margin-top: auto;
+    padding-right: 1%;
 }
 
-.link {
-    text-decoration: none; 
-    color: rgb(0, 0, 0);
+.links {
+    text-decoration: none;
+    color: #000000; 
     font-weight: bold;
     padding: auto;
-    padding-right: 0%;
+    padding-right: 1%;
 }
 
 .box {
     width: 600px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 5);
     padding: 50px;
@@ -52,7 +57,7 @@ a {
     }
 
     nav {
-        background-color: rgba(137, 125, 150, 0.801);
+        background-color: rgba(2, 27, 168, 0.589); 
         border-style: outset;
         border-width: 0;
         border-color: rgb(0, 0, 0);
@@ -84,7 +89,7 @@ a {
     height: 30px; 
     text-align: center;
     font-size: 16px;
-    background-color: rgb(63, 35, 95);
+    background-color: rgba(2, 27, 168, 0.589); 
     color: #0e0d0d; 
     border-radius: 15px;
     cursor: pointer;
@@ -93,5 +98,19 @@ a {
 }
 
 a:hover {
-    color: rgb(230, 205, 176);
+    color: rgb(255, 0, 0);
 } 
+
+nav.child2 {
+    margin-left: center;
+    background-color: rgba(2, 27, 168, 0.589); 
+    display: flex;
+    display: 0;
+    height: 20px;
+    max-width: auto;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgba(2, 27, 168, 0.589); 
+    color:rgb(255, 255, 255); 
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);     
+}

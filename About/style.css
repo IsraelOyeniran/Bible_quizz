@@ -73,3 +73,16 @@ h3:hover {
     color: rgb(255, 0, 0);
 } 
 
+nav.about2 {
+    margin-left: center;
+    background-color: rgba(2, 27, 168, 0.589); 
+    display: flex;
+    display: 0;
+    height: 120px;
+    max-width: auto;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgba(2, 27, 168, 0.589); 
+    color:rgb(255, 255, 255); 
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);     
+}

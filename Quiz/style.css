@@ -1,13 +1,43 @@
-.header {
-    min-height: 120px;
+nav.quiz {
+    margin-left: center;
+    background-color: rgba(2, 27, 168, 0.589); 
+    display: flex;
+    display: 0;
+    height: 120px;
+    max-width: auto;
+    border-style: outset;
+    border-width: 3px;
+    border-color: rgba(2, 27, 168, 0.589); 
+    color:rgb(255, 255, 255); 
+    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);     
 }
 
-.header-default {
-    background-color: #005596;
-    border-color: #005596;
-
+.logo {
+    height: 120px;
+    width: 250px;
 }
 
+body {
+    background-color: rgb(253, 253, 253);
+    background-position-x: center;
+    background-position-y: center;
+}
+
+a {
+    text-decoration: none; 
+    color:rgb(255, 255, 255); 
+    font-weight: bold  ;
+    padding: auto;
+    padding-right: 1%;
+}
+
+.links {
+    text-decoration: none;
+    color: #000000; 
+    font-weight: bold;
+    padding: auto;
+    padding-right: 1%;
+}
 
 /* body {
     margin: 0;
