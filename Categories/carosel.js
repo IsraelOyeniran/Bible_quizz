@@ -1,16 +1,16 @@
 let curPage = 0;
-let pageImages = ["photo_gallery/children.jpg", "photo_gallery/Teenagers.jpg", "photo_gallery/adult.jpg"]
-let pageBody = ["Click here to select your Bible study plan, if you are below 6 years, or next if you are above."
-                "Click here to select your Bible study plan, if you are below 20 years, or next if you are above."
+let pageImages = ["photo_gallery/children.jpg","photo_gallery/Teenagers.jpg","photo_gallery/adult.jpg"]
+let pageBodys = ["Click here to select your Bible study plan, if you are below 6 years, or next if you are above.",
+                "Click here to select your Bible study plan, if you are below 20 years, or next if you are above.",
                 "Click here to select your Bible study plan, if you are  20 years and older or next to go back."
-            ]
+                ]
 
 function alertCall() {
     alert("This is an alert");
 }
 
 function nextCard() {
-    let curPage += 1;
+    curPage  += 1;
     if (curPage >= 3){
         curPage = 0
     }
@@ -18,9 +18,9 @@ function nextCard() {
     const cardImg = document.getElementById("caroselImg");
     cardImg.src = pageImages[curPage];
 
-    const cardText = document.getElementById("caroselText")
+    const cardText = document.getElementById("caroselText");
     cardText.textContent = "";
-    cardText = pageBodys[curpage];
+    cardText.textContent = pageBodys[curPage];
 }
 
 
