@@ -5,6 +5,7 @@ style="font-family: system-ui, -apple-system,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
 
 <head>
+    <script src="carosel.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>DAILY BIBLE STUDY PLANS AND QUIZ</title>
 </head>
@@ -25,45 +26,26 @@ style="font-family: system-ui, -apple-system,
         <a style="font-size: small;" href="/Game/game.html">Game</a><hr>
     </li><br><br>
 
-    <div class="card">
-        <div class="button">
-            <img src="photo_gallery/children.jpg" style="padding-left: 20px">
-            <p style="padding: 30px;">
-                Click 
-                <a href="/Child/child_plans.html">
-                    <strong>here</strong>
-                </a>
-                to select your Bible study plan, if you are below 6 years, or
-                <a href="/Teen/teen_plans.html">
-                    <strong>next</strong>
-                </a> 
-                if you are above.
-            </p>
-        </div>
-        <br>
-            
-        <div class="button-container">
-            <button class="equal-button">
-                <a href="/About/about.html">
-                    <b>Previous</b>
-                </a>
-            </button>
-            
-            <button class="equal-button">
-                <a href="/Teen/teen_plans.html">
-                    <b>Next</b>
-                </a>
-            </button>
-        </div>
+    <div id="carosel">
+        <div class="card">
+            <div id="cardBody" class="button">
+                <img id="caroselImg" src="photo_gallery/children.jpg" style="padding-left: 20px">
+                <p id="caroselText" style="padding: 30px;">
+                    Click <a id="caroselLink" href="/Child/child_plans.html">here</a>
+                    to select your Bible study plan, if you are below 6 years, or
+                    <a href="/Teen/teen_plans.html">next</a>if you are above.
+                </p>
+            </div>
+            <br>
+                
+            <div class="button-container">
+                <button id="previous-button" class="equal-button"><a href="/About/about.html">Previous</button>
+                <button id="next-button" class="equal-button" onclick="nextCard()">Next</button>
+            </div>
         <br>
     </div>
 
-
-                <!-- Only children plans will displayed on this page, at the click of next, 
-                teen plans will display in another tab or child plans will disappeared, 
-                when you click next again, adult plan will display in another tab or child plans will disappeared  -->
-
-    <div class="card">
+    <!-- <div class="card">
         <div class="button">
             <img src="photo_gallery/Teenagers.jpg" style="padding-left: 20px">
             <p style="padding: 30px;">
@@ -134,6 +116,6 @@ style="font-family: system-ui, -apple-system,
                     <b>Home</b>
                 </a>
             </button>
-        </div>
+        </div> -->
 </body>
 </html>
