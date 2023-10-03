@@ -1,5 +1,5 @@
 let curPage = 0;
-let pageImages = ["photo_gallery/children.jpg","photo_gallery/Teenagers.jpg","photo_gallery/adult.jpg"]
+let pageImages = ["photo_gallery/adult.jpg"]
 let pageBodys = ["Click here to select your Bible study plan, if you are below 6 years, or next if you are above.",
                 "Click here to select your Bible study plan, if you are below 20 years, or next if you are above.",
                 "Click here to select your Bible study plan, if you are  20 years and older or next to go back."
