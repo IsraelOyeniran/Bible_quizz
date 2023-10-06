@@ -5,6 +5,7 @@ style="font-family: system-ui, -apple-system,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
 
 <head>
+    <script src="carosel.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>DAILY BIBLE STUDY PLANS AND QUIZ</title>
 </head>
@@ -24,7 +25,43 @@ style="font-family: system-ui, -apple-system,
         <a style="font-size: small;" href="/Game/game.html">Game</a><hr>
     </li><br><br>
 
-    <div class="box">
+    <div id="carosel">
+        <div class="box">
+            <div id="boxBodys">
+                <h1 id="caroselLink"><a href="https://biblehub.com/romans/3-23.htm">
+                    Ephesians 4:32</a>
+                </h1>
+                <hr>
+                <strong id="caroselText">
+                    Be kind to one another.
+                </strong>
+            </div>
+        </div>
+    </div>
+        <br><br><hr>
+        <br><br>
+
+        <!-- <div class="box">
+            <h1><a href="https://biblehub.com/romans/3-23.htm">
+                1 John 3:23</a></h1><hr>
+            <strong>Love one another.</strong>
+        </div><br><br><hr>
+        <br><br> -->
+
+    <div class="button-container">
+        <button id="next-button" class="equal-button" onclick="nextCard()">
+            <a href="#">
+                Read The Next Verse
+            </a>
+        </button>
+    </div>
+    <br>
+    <br>
+    <hr>
+
+    <nav class="teen2"></nav>
+
+    <!-- <div class="box">
         <h1><a href="https://biblehub.com/romans/3-23.htm">
             Ephesians 4:32</a></h1><hr>
         <strong>Be kind to one another.</strong>
@@ -393,6 +430,6 @@ style="font-family: system-ui, -apple-system,
         <button class="equal-button"><a href="/Home/index.html">Home</a></button>
     </div><br><br><hr>
 
-    <nav class="teen2"></nav>
+    <nav class="teen2"></nav> -->
 </body>
 </html>
