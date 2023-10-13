@@ -5,6 +5,7 @@ style="font-family: system-ui, -apple-system,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">
 
 <head>
+    <script src="carosel.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>DAILY BIBLE STUDY PLANS AND QUIZ</title>
 </head>
@@ -24,49 +25,53 @@ style="font-family: system-ui, -apple-system,
         <a style="font-size: small;" href="/Game/game.html">Game</a><hr>
     </li>
 
-    <font size="5">       
-        <h2>Question: <br>
-            <b>What is the first book in the Bible?</b>
-        </h2>
-    </font>
+    <div id="carosel">
+        <font size="5">
 
-    <font size="5">       
-        <h2>Answer:</h2>
-        
-        <!-- <p>
-            <b>Select from the below to start your quiz!</b>
-        </p> -->
-    </font>
-    <br>
-    
-    <div class="links">
-        <button class="equal-button">
-            <a href="################">
-                TAKE QUIZ FROM THE NEW TESTAMENT
-            </a>        
-        </button>
+            <h4 id="questions">Question:</h4>
+            <h3 id="questionBody"><b>What is the first book in the Bible?</b></h3>
+        </font>
         <br>
 
-        <button class="equal-button">
-            <a href="################">
-                TAKE QUIZ FROM THE OLD TESTAMENT
-            </a>
-        </button>
-        <br>
+        <div class="container">
+            <font size="5">       
+                <h4 id="answers">Answer:</h4>
+            </font>
+            
+            <div class="buttons">
+                <button class="equal-button2">
+                    <b>(A). Matthew</b>    
+                </button><br>
+            
+                <button class="equal-button2">
+                    <b>(B). Exodus</b>
+                </button><br>
 
-        <button class="equal-button">
-            <a href="################">
-                TAKE ADVANCE QUIZ
-            </a>        
-        </button>
-        <br>
-
-
-        <div class="#">
-            <h1 style="font-size: large;" href="/Home/index.html">Go To Home Page</h1>
-            <!-- <h1 style="font-size: large;" href="/Quiz/quiz.html">Take Quiz</h1><br> -->
-            <h1 style="font-size: large;" href="/Game/game.html">Play Bible Game</h1>
+                <button class="equal-button2">
+                    <b>(C). Genesis</b>     
+                </button><br>
+            
+                <button class="equal-button2">
+                    <b>(D). Jesus</b>
+                </button><br>
+            </div>
+        </div>
     </div>
+    <br><br>
+
+
+        <div class="links">
+            <button class="equal-button3"; href="/Quiz/quiz.html">
+                <b>Continue Quiz</b>    
+            </button>
+            <button class="equal-button3"; href="/Home/index.html">
+                <b>Exit Quiz</b>    
+            </button>
+            <!-- <h1 style="font-size: large;" href="/Home/index.html">Go To Home Page</h1>
+            <h1 style="font-size: large;" href="/Quiz/quiz.html">Take Quiz</h1><br>
+            <h1 style="font-size: large;" href="/Game/game.html">Play Bible Game</h1> -->
+    </div>
+    <br>
     <hr>
 
 
