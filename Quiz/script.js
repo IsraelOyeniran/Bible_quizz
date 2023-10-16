@@ -101,31 +101,30 @@ const questions = [
 ];
 
 const quentionElement = document.getElementById("question");
-const answerContainer = document.getElementById("container");
-const answersHeader = document.getElementById("answers");
-const answersButtons = document.getElementById("answer-buttons");
+const answerButton = document.getElementById("answer-buttons");
+const nextButton = document.getElementById("next-btn");
 
-let currentQuizPage = 0;
+let currentQuestionIndex = 0;
 let score = 0;
 
 function startQuiz(){
-    currentQuizPage = 0;
+    currentQuestionIndex = 0;
     score = 0;
-    nextButton.innerHTML = "Continue";
+    nextButton.innerHTML = "Next";
     showQuestion();
 }
 
 function showQuestion(){
     resetState();
-    let currentQuiz = questions[currentQuizPage];
-    let questionNo = currentQuizPage + 1;
-    questionElement.innerHTML = questionNo + ". " + currentQuiz.question;
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    quentionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
-    currentQuiz.answers.forEach(answers => {
+    currentQuestion.answers.forEach(answer => {
         const button = document.createElement("button");
-        button.innerHTML = answers.text;
-        button.classList.add("nextButton");
-        answersButtons.appendChild(button);
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButton.appendChild(button);
         if (answer.correct){
             button.dataset.correct = answers.correct
         }
@@ -135,20 +134,20 @@ function showQuestion(){
 
 function resetState(){
     nextButton.style.display = "none";
-    while(answersButtons.firstChild){
-        answersButtons.removeChild(answersButtons.firstChild);
+    while(answerButtons.firstChild){
+        answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
 function selectAnswer(e){
-    const selectedButton = e.target;
-    const isCorrect = selectedButton.dataset.correct === "true";
+    const selectedBtn = e.target;
+    const isCorrect = selectedbtn.dataset.correct === "true";
     if(isCorrect){
-        selectedButton.classList.add("correct");
+        selectedBtn.classList.add("correct");
     }else{
-        selectedButton.classList.add("incorrect")
+        selectedBtn.classList.add("incorrect")
     }
-    Array.from(answersButtons.children).forEach(button => {
+    Array.from(answerButtons.children).forEach(button => {
         if(button.dataset.correct === "true"){
             button.classList.add("correct");
         }
