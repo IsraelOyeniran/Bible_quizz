@@ -105,27 +105,37 @@ const questions = [
             {text: "(A) Mark", correct: false},
             {text: "(B) Judge", correct: false},
             {text: "(C) James", correct: false},
-            {text: "(A) Matthew", correct: true},
+            {text: "(D) Matthew", correct: true},
         ] 
     },
 
     {
-        question: "What is the last book in the Bible?",
+        question: "Who are the religious leaders who continually tried to trap Jesus with their questions?",
         answers: [
-            {text: "(A) Revelation", correct: true},
-            {text: "(B) Hebrews", correct: false},
-            {text: "(C) Genesis", correct: false},
-            {text: "(A) Jude", correct: false},
+            {text: "(A) Pharisees", correct: true},
+            {text: "(B) Stoics", correct: false},
+            {text: "(C) Epicureans", correct: false},
+            {text: "(D) Galileans", correct: false},
         ] 
     },
 
     {
-        question: "In what language was most of the Old Testament given?",
+        question: "What did Jesus do for Lazarus?",
         answers: [
-            {text: "(A) Hebrew", correct: true},
-            {text: "(B) Greek", correct: false},
-            {text: "(C) English", correct: false},
-            {text: "(A) Spanish", correct: false},
+            {text: "(A) Cooked him dinner", correct: false},
+            {text: "(B) Took him for a walk", correct: false},
+            {text: "(C) Healed him from a fever", correct: false},
+            {text: "(D) Raised him from the dead", correct: true},
+        ] 
+    },
+
+    {
+        question: "What is the name of Jesus’ mother?",
+        answers: [
+            {text: "(A) Mary", correct: true},
+            {text: "(B) Salome", correct: false},
+            {text: "(C) Joanna", correct: false},
+            {text: "(D) Martha", correct: false},
         ]  
     }
 ];
@@ -264,3 +274,24 @@ startQuiz();
 //     ]  
 // },
    
+
+// {
+//     question: "What is the last book in the Bible?",
+//     answers: [
+//         {text: "(A) Revelation", correct: true},
+//         {text: "(B) Hebrews", correct: false},
+//         {text: "(C) Genesis", correct: false},
+//         {text: "(A) Jude", correct: false},
+//     ] 
+// },
+
+
+// {
+//     question: "In what language was most of the Old Testament given?",
+//     answers: [
+//         {text: "(A) Hebrew", correct: true},
+//         {text: "(B) Greek", correct: false},
+//         {text: "(C) English", correct: false},
+//         {text: "(A) Spanish", correct: false},
+//     ]  
+// },
