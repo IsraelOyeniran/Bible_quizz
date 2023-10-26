@@ -278,6 +278,76 @@ const questions = [
             {text: "(D) Bethesda", correct: false},
         ]
     },
+
+    {
+        question: "Who baptized Jesus?",
+        answers: [
+            {text: "(A) Paul Apostle", correct: false},
+            {text: "(B) John the Baptist", correct: true},
+            {text: "(C) Jesus Brother", correct: false},
+            {text: "(D) Peter", correct: false},
+        ]
+    },
+
+    {
+        question: "Who spoke from the sky when Jesus was baptized?",
+        answers: [
+            {text: "(A) Angel", correct: false},
+            {text: "(B) Dove", correct: false},
+            {text: "(C) God", correct: true},
+            {text: "(D) Jesus Mother", correct: false},
+        ]
+    },
+
+    {
+        question: "What did God say?",
+        answers: [
+            {text: "(A) That he was well-pleased with his son.", correct: true},
+            {text: "(B) That he can laugh", correct: false},
+            {text: "(C) That he can swim", correct: false},
+            {text: "(D) That he baptized too early", correct: false},
+        ]
+    },
+
+    {
+        question: "What happened when Jesus went into the wilderness?",
+        answers: [
+            {text: "(A) He was asleep.", correct: false},
+            {text: "(B) Nothing happen", correct: false},
+            {text: "(C) He was preaching", correct: false},
+            {text: "(D) He was tempted by Satan", correct: true},
+        ]
+    },
+
+    {
+        question: "Name Jesus’ hometown?",
+        answers: [
+            {text: "(A) Heaven", correct: false},
+            {text: "(B) Rome", correct: false},
+            {text: "(C) Nazareth", correct: true},
+            {text: "(D) Jerusalem", correct: false},
+        ]
+    },
+
+    {
+        question: "What did Jesus turned water into?",
+        answers: [
+            {text: "(A) Coca-Cola", correct: false},
+            {text: "(B) Wine", correct: true},
+            {text: "(C) Juice", correct: false},
+            {text: "(D) Water", correct: false},
+        ]
+    },
+
+    {
+        question: "Besides preaching, name an activity Jesus did while traveling in Galilee",
+        answers: [
+            {text: "(A) Healing the sick and casting out demons", correct: true},
+            {text: "(B) Revival", correct: false},
+            {text: "(C) Fishing", correct: false},
+            {text: "(D) Fighting", correct: false},
+        ]
+    },
 ];
 
 const questionElement = document.getElementById("question");
