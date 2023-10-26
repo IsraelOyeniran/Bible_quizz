@@ -340,14 +340,64 @@ const questions = [
     },
 
     {
-        question: "Besides preaching, name an activity Jesus did while traveling in Galilee",
+        question: "Besides preaching, name an activity Jesus did while traveling in Galilee?",
         answers: [
             {text: "(A) Healing the sick and casting out demons", correct: true},
             {text: "(B) Revival", correct: false},
             {text: "(C) Fishing", correct: false},
             {text: "(D) Fighting", correct: false},
         ]
-    }
+    },
+
+    {
+        question: "What was Matthew before he followed Jesus?",
+        answers: [
+            {text: "(A) A tax collector", correct: true},
+            {text: "(B) A lecturer", correct: false},
+            {text: "(C) An Hockey Player", correct: false},
+            {text: "(D) A Trader", correct: false},
+        ]
+    },
+
+    {
+        question: "Why did Jesus weep in that verse?",
+        answers: [
+            {text: "(A) Because his father died", correct: false},
+            {text: "(B) Because he was hungry", correct: false},
+            {text: "(C) Because his friend Lazarus died", correct: true},
+            {text: "(D) Because his mother died", correct: false},
+        ]
+    },
+
+    {
+        question: "How many days was Lazarus dead before Jesus came to visit?",
+        answers: [
+            {text: "(A) Seven days", correct: false},
+            {text: "(B) Nine days", correct: false},
+            {text: "(C) One day", correct: false},
+            {text: "(D) Four days", correct: true},
+        ]
+    },
+
+    {
+        question: "What problem did Bartimaeus have that Jesus fixed?",
+        answers: [
+            {text: "(A) He was blind", correct: true},
+            {text: "(B) He was crying", correct: false},
+            {text: "(C) He was stubborn", correct: false},
+            {text: "(D) None", correct: false},
+        ]
+    },
+
+    {
+        question: "How many people did Jesus feed with fish and bread?",
+        answers: [
+            {text: "(A) 10,000 people", correct: false},
+            {text: "(B) 7,000 people", correct: false},
+            {text: "(C) 5,000 people", correct: true},
+            {text: "(D) 500 people", correct: false},
+        ]
+    },
 ];
 
 const questionElement = document.getElementById("question");
