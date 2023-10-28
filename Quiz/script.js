@@ -397,7 +397,7 @@ const questions = [
             {text: "(C) 5,000 people", correct: true},
             {text: "(D) 500 people", correct: false},
         ]
-    },
+    }
 ];
 
 const questionElement = document.getElementById("question");
