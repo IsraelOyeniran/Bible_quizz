@@ -5,7 +5,7 @@ nav.quiz {
     display: 0;
     height: 120px;
     max-width: auto;
-    border-style: outset;
+    border-style: outset 0;
     border-width: 3px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
@@ -22,8 +22,6 @@ body {
     background-color: rgb(253, 253, 253);
     background-position-x: center;
     background-position-y: center;
-
-
     margin: 10;
     padding: 10;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 
@@ -33,7 +31,7 @@ body {
 }
 
 .app {
-    background: #fff;
+    background: rgba(54, 54, 54, 0.322);
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -141,7 +139,7 @@ nav.quiz2 {
     display: 0;
     height: 20px;
     max-width: auto;
-    border-style: outset;
+    border-style: outset 0;
     border-width: 3px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 

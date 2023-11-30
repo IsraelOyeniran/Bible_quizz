@@ -5,7 +5,7 @@ nav.signup {
     display: 0;
     height: 120px;
     max-width: auto;
-    border-style: outset;
+    border-style: outset 0;
     border-width: 3px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
@@ -100,7 +100,7 @@ nav.signup2 {
     display: 0;
     height: 20px;
     max-width: auto;
-    border-style: outset;
+    border-style: outset 0;
     border-width: 3px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
