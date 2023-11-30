@@ -297,7 +297,7 @@ const questions = [
             {text: "(C) 50", correct: false},
             {text: "(A) 66", correct: true},
     ] 
-},
+    },
 
     {
         question: "What did God say?",
