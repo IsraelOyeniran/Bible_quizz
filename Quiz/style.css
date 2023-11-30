@@ -1,25 +1,25 @@
 nav.quiz {
     margin-left: center;
-    background-color: rgba(2, 27, 168, 0.589); 
+    background-color: rgb(255, 255, 255); 
     display: flex;
     display: 0;
     height: 120px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
-    border-color: rgba(2, 27, 168, 0.589); 
-    color:rgb(255, 255, 255); 
-    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);       
+    border-color: rgba(54, 54, 54, 0.589); 
+    color:rgb(0, 0, 0); 
+    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);      
 }
 
 .logo {
-    height: 114px;
+    height: 120px;
     width: 250px;
 }
 
 body {
-    background: #001e4d;
-    background-color: rgba(2, 27, 168, 0.151); 
+    background: rgb(253, 253, 253);
+    background-color: rgb(253, 253, 253);
     background-position-x: center;
     background-position-y: center;
 
@@ -105,7 +105,7 @@ body {
 
 a {
     text-decoration: none; 
-    color:rgb(255, 255, 255); 
+    color:rgb(0, 0, 0); 
     font-weight: bold;
     padding: auto;
     padding-right: 1%;
@@ -136,16 +136,16 @@ a:hover {
 
 nav.quiz2 {
     margin-left: center;
-    background-color: rgba(2, 27, 168, 0.589); 
+    background-color: rgb(255, 255, 255); 
     display: flex;
     display: 0;
     height: 20px;
     max-width: auto;
     border-style: outset;
     border-width: 3px;
-    border-color: rgba(2, 27, 168, 0.589); 
-    color:rgb(255, 255, 255); 
-    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);
+    border-color: rgba(54, 54, 54, 0.589); 
+    color:rgb(0, 0, 0); 
+    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5); 
 }  
 
 .equal-button {
@@ -153,7 +153,7 @@ nav.quiz2 {
     height: 100px; 
     text-align: center;
     font-size: 30px;
-    background-color: rgba(2, 27, 168, 0.589); 
+    background-color: rgba(54, 54, 54, 0.589); 
     color: #ffffff; 
     border-radius: 15px;
     cursor: pointer;
