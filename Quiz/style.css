@@ -127,7 +127,7 @@ p {
 }
 
 a:hover {
-    color: #000000;
+    color: #ff0000;
 } 
 
 a:hover {
@@ -171,6 +171,6 @@ nav.quiz2 {
 }
 
 h3 {
-    color: #ff0000;
+    color: #000000;
     text-align: center;
 }
