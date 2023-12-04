@@ -120,7 +120,7 @@ const questions = [
     },
 
     {
-        question: "<ow is the name Emmanuel interpreted? ",
+        question: "How is the name Emmanuel interpreted?",
         answers: [
             {text: "(A) God is with us", correct: true},
             {text: "(B) God is for us", correct: false},
@@ -183,7 +183,7 @@ const questions = [
         question: "Which insect did John the Baptist eat in the desert?",
         answers: [
             {text: "(A) Ants", correct: false},
-            {text: "(B) Mosquuitoes", correct: false},
+            {text: "(B) Mosquitoes", correct: false},
             {text: "(C) Beetles", correct: false},
             {text: "(D) Locusts", correct: true},
         ]  
