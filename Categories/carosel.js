@@ -1,10 +1,16 @@
 let curPage = 0;
 let pageImages = ["photo_gallery/adult.jpg","photo_gallery/adult.jpg","photo_gallery/adult.jpg"]
 let caroselLink = ["here","next"]
-let pageBodys = ["Click here to select your Bible study plan, if you are below 6 years, or next if you are above.",
-                "Click here to select your Bible study plan, if you are below 20 years, or next if you are above.",
-                "Click here to select your Bible study plan, if you are  20 years and older or next to go back."
+let pageBodys = [" to select your Bible study plan, if you are below 6 years",
+                " to select your Bible study plan, if you are below 20 years",
+                " to select your Bible study plan, if you are 20+"
                 ]
+
+
+// let pageBodys = ["Click here to select your Bible study plan, if you are below 6 years, or next if you are above.",
+//                 "Click here to select your Bible study plan, if you are below 20 years, or next if you are above.",
+//                 "Click here to select your Bible study plan, if you are  20 years and older or next to go back."
+//                 ]
 
 function alertCall() {
     alert("This is an alert");
@@ -22,6 +28,9 @@ function nextCard() {
     const cardText = document.getElementById("caroselText");
     cardText.textContent = "";
     cardText.textContent = pageBodys[curPage];
+
+    const caroselBodyElement = document.getElementById("caroselBody");
+    caroselBodyElement.innerHtml = carsolBodies[curPage];
 }
 
 
