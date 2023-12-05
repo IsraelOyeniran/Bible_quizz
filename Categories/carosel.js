@@ -1,7 +1,7 @@
 let curPage = 0;
 let pageImages = ["photo_gallery/adult.jpg","photo_gallery/adult.jpg","photo_gallery/adult.jpg"]
 let caroselLink = ["here","next"]
-let pageBodys = [" to select your Bible study plan, if you are below 6 years",
+let pageBodys = [" to select your Bible study plan, if you are below 6 years or next if you are above.",
                 " to select your Bible study plan, if you are below 20 years",
                 " to select your Bible study plan, if you are 20+"
                 ]
