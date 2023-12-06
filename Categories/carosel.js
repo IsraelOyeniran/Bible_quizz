@@ -1,9 +1,9 @@
 let curPage = 0;
 let pageImages = ["photo_gallery/adult.jpg","photo_gallery/adult.jpg","photo_gallery/adult.jpg"]
-let pageBodys = ["Click here to select your Bible study plan, if you are below 6 years, or next if you are above.",
-                "Click here to select your Bible study plan, if you are below 20 years, or next if you are above.",
-                "Click here to select your Bible study plan, if you are  20 years and older or next to go back."
-                ]
+// let pageBodys = ["Click here to select your Bible study plan, if you are below 6 years, or next if you are above.",
+//                 "Click here to select your Bible study plan, if you are below 20 years, or next if you are above.",
+//                 "Click here to select your Bible study plan, if you are  20 years and older or next to go back."
+//                 ]
 
 let caroselElementStrings = [
                             'Click <a id="caroselLink" href="/Child/child_plans.html"><strong>here</strong></a> to select your Bible study plan, if you are below 6 years, or click next button if you are above.',
