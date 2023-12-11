@@ -400,7 +400,7 @@ const all_questions = [
     }
 ];
 
-let questions = all_questions;
+let questions; 
 
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -415,7 +415,7 @@ function getRandomInt(max){
 }
 
 function startQuiz(){
-    questions = all_questions;
+    questions = [...all_questions];
     currentQuestionIndex = getRandomInt(questions.length);
     score = 0;
     nextButton.innerHTML = "Next";

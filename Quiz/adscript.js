@@ -1,4 +1,4 @@
-const questions = [
+const all_questions = [
     {
         question: "What was the first thing that God created? ",
         answers: [
@@ -400,15 +400,23 @@ const questions = [
     }
 ];
 
+let questions; 
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
-let currentQuestionAdquiz = 0;
+let currentQuestionIndex = 0;
+let questionsFinished = 1;
 let score = 0;
 
+function getRandomInt(max){
+    return Math.floor(Math.random() * max);
+}
+
 function startQuiz(){
-    currentQuestionAdquiz = 0;
+    questions = [...all_questions];
+    currentQuestionIndex = getRandomInt(questions.length);
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
@@ -416,8 +424,9 @@ function startQuiz(){
 
 function showQuestion(){
     resetState();
-    let currentQuestion = questions[currentQuestionAdquiz];
-    let questionNo = currentQuestionAdquiz + 1;
+    questionsFinished += 1;
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = questionsFinished;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
@@ -459,14 +468,15 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `You Scored ${score} out of ${questions.length}!`;
+    questionElement.innerHTML = `You Scored ${score} out of ${all_questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
 
 function handleNextButton(){
-    currentQuestionAdquiz++;
-    if(currentQuestionAdquiz < questions.length){
+    questions.splice(currentQuestionIndex, 1);
+    currentQuestionIndex = getRandomInt(questions.length);
+    if(currentQuestionIndex < questions.length){
         showQuestion();
     }else{
         showScore();
