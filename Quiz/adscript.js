@@ -424,7 +424,7 @@ function startQuiz(){
 
 function showQuestion(){
     resetState();
-    questionsFinished += 1;
+    questionsFinished += 0;
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = questionsFinished;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;

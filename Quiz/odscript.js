@@ -1,4 +1,4 @@
-const questions = [
+const all_questions = [
     {
         question: "Where was Jesus born?",
         answers: [
@@ -400,15 +400,23 @@ const questions = [
     }
 ];
 
+let questions; 
+
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
+let questionsFinished = 1;
 let score = 0;
 
+function getRandomInt(max){
+    return Math.floor(Math.random() * max);
+}
+
 function startQuiz(){
-    currentQuestionIndex = 0;
+    questions = [...all_questions];
+    currentQuestionIndex = getRandomInt(questions.length);
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
@@ -416,8 +424,9 @@ function startQuiz(){
 
 function showQuestion(){
     resetState();
+    questionsFinished += 0;
     let currentQuestion = questions[currentQuestionIndex];
-    let questionNo = currentQuestionIndex + 1;
+    let questionNo = questionsFinished;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
     currentQuestion.answers.forEach(answer => {
