@@ -407,24 +407,17 @@ const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
-let questionsFinished = 1;
+let questionsFinished = 0;
 let score = 0;
 
 function getRandomInt(max){
     return Math.floor(Math.random() * max);
 }
 
-function startQuiz(){
-    questions = [...all_questions];
-    currentQuestionIndex = getRandomInt(questions.length);
-    score = 0;
-    nextButton.innerHTML = "Next";
-    showQuestion();
-}
-
 function showQuestion(){
     resetState();
-    questionsFinished += 0;
+    questionsFinished += 1;
+    // console.log("All Question:",all_questions)
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = questionsFinished;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
@@ -489,6 +482,14 @@ nextButton.addEventListener("click", ()=>{
         startQuiz();
     }
 });
+
+function startQuiz(){
+    questions = [...all_questions];
+    currentQuestionIndex = getRandomInt(questions.length);
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+}
 
 startQuiz();
 
