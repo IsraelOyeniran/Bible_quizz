@@ -417,7 +417,6 @@ function getRandomInt(max){
 function showQuestion(){
     resetState();
     questionsFinished += 1;
-    // console.log("All Question:",all_questions)
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = questionsFinished;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
