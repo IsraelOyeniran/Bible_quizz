@@ -409,6 +409,7 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let questionsFinished = 0;
 let score = 0;
+let max_questions = 25;
 
 function getRandomInt(max){
     return Math.floor(Math.random() * max);
@@ -461,15 +462,18 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `You Scored ${score} out of ${all_questions.length}!`;
+    // questionElement.innerHTML = `You Scored ${score} out of ${all_questions.length}!`;
+    questionElement.innerHTML = `You Scored ${score} out of ${max_questions}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
+    questionsFinished = 0;
 }
 
 function handleNextButton(){
     questions.splice(currentQuestionIndex, 1);
     currentQuestionIndex = getRandomInt(questions.length);
-    if(currentQuestionIndex < questions.length){
+    // if(currentQuestionIndex < questions.length){
+    if(questionsFinished < max_questions){
         showQuestion();
     }else{
         showScore();

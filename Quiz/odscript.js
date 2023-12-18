@@ -463,6 +463,7 @@ function showScore(){
     questionElement.innerHTML = `You Scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
+    questionsFinished = 0;
 }
 
 function handleNextButton(){
