@@ -10,40 +10,12 @@ verses = ["Ephesians 4:32","1 John 3:23","Psalm 56:3","Acts 16:31","Psalm 145:9"
             "Psalm 1:6","Matthew 28:6","Acts 5:29","1 Thessalonians 5:17","1 John 4:19","Psalm 46:10",
             "Proverbs 2:6","Psalm 150:6","Ecclesiastes 12:13","Isaiah 26:4","Galatians 6:7"]
 
-// versepairs = [
-//     ["Aa","Romans 3:23"],
-//     ["Bb","Acts 16:31"],
-//     ["Cc","Colossians 3:20"],
-//     ["Dd","Matthew 7:12"],
-//     ["Ee","Proverbs 20:11"],
-//     ["Ff","Isaiah 43:1"],
-//     ["Gg","1 Thessalonians 5:18"],
-//     ["Hh","Exodus 20:12"],
-//     ["Ii","John 15:5"],
-//     ["Jj","Hebrews 13:8"],
-//     ["Kk","Psalm 34:13"],
-//     ["Ll","Isaiah 45:22"],
-//     ["Mm","John 3:7"],
-//     ["Nn","Matthew 6:24"],
-//     ["Oo","Psalm 89:8"],
-//     ["Pp","Ephesians 6:11, 14-17"],
-//     ["Qq","1 Thessalonians 5:19"],
-//     ["Rr","Exodus 20:8-10"],
-//     ["Ss","Matthew 6:33"],
-//     ["Tt","Proverbs 3:5-6"],
-//     ["Uu","Isaiah 9:6-7"],
-//     ["Vv","Romans 12:19,21"],
-//     ["Ww","Psalm 27:14"],
-//     ["Xx","Matthew 18:3"],
-//     ["Yy","Matthew 5:14,16"],
-//     ["Zz","Psalm 97:8,9"]
-// ]
 
-async function fetchVerse(verseName){
-    let response = await fetch("https://bible-api.com/"+verseName);
-    let data = await response.json()
-    return data
-}
+// async function fetchVerse(verseName){
+//     let response = await fetch("https://bible-api.com/"+verseName);
+//     let data = await response.json()
+//     return data
+// }
 
 // function makeTextBold(string){
 //     return "<b>"+string+"</b>"
@@ -54,10 +26,10 @@ function nextVerse() {
     const CaroselLink = document.getElementById("caroselLink")
     CaroselLink.innerHTML = verse[1]
 
-    const boldedLetters = document.getElementById("boldedLetters")
-    boldedLetters.innerHTML = verse[0]
+    // const boldedLetters = document.getElementById("boldedLetters")
+    // boldedLetters.innerHTML = verse[0]
 
-    const bodyText = document.getElementById("caroselText")
+    const caroselText = document.getElementById("caroselText")
 
     fetchVerse(verses[current_verse]).then((data) => {
             console.log(data)
