@@ -8,7 +8,8 @@ verses = ["Ephesians 4:32","1 John 3:23","Psalm 56:3","Acts 16:31","Psalm 145:9"
             "Psalm 138:1","John 10:11","Ephesians 6:1","Proverbs 30:5","Matthew 6:24","Deuteronomy 6:5",
             "Matthew 22:39","1 Corinthians 10:31","Psalm 19:1","Genesis 1:1","Psalm 139:14","Isaiah 43:5",
             "Psalm 1:6","Matthew 28:6","Acts 5:29","1 Thessalonians 5:17","1 John 4:19","Psalm 46:10",
-            "Proverbs 2:6","Psalm 150:6","Ecclesiastes 12:13","Isaiah 26:4","Galatians 6:7"]
+            "Proverbs 2:6","Psalm 150:6","Ecclesiastes 12:13","Isaiah 26:4","Galatians 6:7"
+        ]
 
 
 // async function fetchVerse(verseName){
@@ -33,7 +34,7 @@ function nextVerse() {
 
     fetchVerse(verses[current_verse]).then((data) => {
             console.log(data)
-            bodyText.innerHTML = data.text
+            caroselText.innerHTML = data.text
         }
     )
 
