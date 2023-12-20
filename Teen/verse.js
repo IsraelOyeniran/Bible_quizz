@@ -11,24 +11,10 @@ verses = ["Ephesians 4:32","1 John 3:23","Psalm 56:3","Acts 16:31","Psalm 145:9"
             "Proverbs 2:6","Psalm 150:6","Ecclesiastes 12:13","Isaiah 26:4","Galatians 6:7"
         ]
 
-
-// async function fetchVerse(verseName){
-//     let response = await fetch("https://bible-api.com/"+verseName);
-//     let data = await response.json()
-//     return data
-// }
-
-// function makeTextBold(string){
-//     return "<b>"+string+"</b>"
-// }
-
 function nextVerse() {
     verse = verses[current_verse]
     const verselLink = document.getElementById("caroselLink")
     verselLink.innerHTML = verse[1]
-
-    // const boldedLetters = document.getElementById("boldedLetters")
-    // boldedLetters.innerHTML = verse[0]
 
     const verseText = document.getElementById("caroselText")
 
