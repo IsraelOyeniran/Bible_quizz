@@ -24,17 +24,17 @@ verses = ["Ephesians 4:32","1 John 3:23","Psalm 56:3","Acts 16:31","Psalm 145:9"
 
 function nextVerse() {
     verse = verses[current_verse]
-    const CaroselLink = document.getElementById("caroselLink")
-    CaroselLink.innerHTML = verse[1]
+    const verselLink = document.getElementById("caroselLink")
+    verselLink.innerHTML = verse[1]
 
     // const boldedLetters = document.getElementById("boldedLetters")
     // boldedLetters.innerHTML = verse[0]
 
-    const caroselText = document.getElementById("caroselText")
+    const verseText = document.getElementById("caroselText")
 
     fetchVerse(verses[current_verse]).then((data) => {
             console.log(data)
-            caroselText.innerHTML = data.text
+            verseText.innerHTML = data.text
         }
     )
 
