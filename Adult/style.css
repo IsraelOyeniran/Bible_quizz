@@ -1,15 +1,15 @@
 nav.adults {
     margin-left: center;
-    background-color: rgba(2, 27, 168, 0.589); 
+    background-color: rgb(255, 255, 255); 
     display: flex;
     display: 0;
     height: 120px;
     max-width: auto;
-    border-style: outset;
+    border-style: outset 0;
     border-width: 3px;
-    border-color: rgba(2, 27, 168, 0.589); 
-    color:rgb(255, 255, 255); 
-    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);     
+    border-color: rgba(54, 54, 54, 0.589); 
+    color:rgb(0, 0, 0); 
+    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
 
 .logo {
@@ -25,8 +25,8 @@ body {
 
 a {
     text-decoration: none; 
-    color:rgb(255, 255, 255); 
-    font-weight: bold  ;
+    color: #000000; 
+    font-weight: bold   ;
     padding: auto;
     padding-right: 1%;
 }

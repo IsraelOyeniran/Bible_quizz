@@ -20,7 +20,7 @@ async function fetchVerse(verseName){
 function nextVerse() {
     verse = verses[current_verse]
     const verseLink = document.getElementById("verseLink")
-    verseLink.innerHTML = verse[1]
+    verseLink.innerHTML = (current_verse+1).toString()+": "+verse
 
     const verseText = document.getElementById("verseText")
 
