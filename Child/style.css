@@ -89,32 +89,12 @@ a {
     }
 }
 
-
-
-/* .border {
-    border-radius: 40px;
-    max-width: 850px;
-    background-color: white;
-    margin: auto;
-    padding: 50px;
-    border-style: outset;
-    border-width: 15px;
-    border-color: rgba(54, 54, 54, 0.589); 
+.border h3 {
     text-align: center;
-    box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
-} */
+    background-color: #04AA6D;
+}
 
-.box {
-    /* width: 600px;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    box-shadow: 3px 3px 3px 5px rgba(0, 0, 0, 5);
-    padding: 50px;
-    padding-top: 0px;
-    margin: auto;
-    background-color: #fff; */
-    
-    b {
+.box b {
         margin: auto;
         text-align: left;
         font-size: 100px;
@@ -123,7 +103,7 @@ a {
     }
 
     nav {
-        background-color: rgba(2, 27, 168, 0.589); 
+        background-color: #04AA6D;
         border-style: outset;
         border-width: 0;
         border-color: rgb(0, 0, 0);
@@ -143,7 +123,6 @@ a {
         font-weight: bold;
         color: rgb(0, 0, 0);
     }
-}
 
 .button-container {
     display: flex;
@@ -169,7 +148,7 @@ a {
     box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
   }
 
-/* .equal-button {
+.equal-button {
     width: 200px;
     height: 30px; 
     font-weight: bolder;
@@ -177,11 +156,11 @@ a {
     font-size: 16px;
     background-color: rgba(54, 54, 54, 0.589); 
     color: #000000; 
-    border-radius: 15px;
+    /* border-radius: 15px; */
     cursor: pointer;
     margin: 5px; 
     box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
-} */
+}
 
 a:hover {
     color: rgb(255, 0, 0);
