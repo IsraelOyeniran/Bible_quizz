@@ -9,7 +9,7 @@ nav.quiz {
     border-width: 3px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
-    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);      
+    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);       
 }
 
 .logo {
@@ -136,13 +136,13 @@ a {
     font-weight: bolder;
 }
 
-p {
+/* p {
     font-size: xx-large;
-    text-align: center;
+    text-align: justify;
     padding-top: 0px;
     margin-right: 150px;
     margin-left: 150px; 
-}
+} */
 
 .grid-container {
     display: grid;
@@ -178,10 +178,6 @@ p {
 a:hover {
     color: #ff0000;
 } 
-
-/* a:hover {
-    color: rgb(255, 0, 0);
-}  */
 
 .equal-button {
     width: 200px;
