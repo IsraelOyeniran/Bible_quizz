@@ -19,8 +19,14 @@ async function fetchVerse(verseName){
 
 function nextVerse() {
     verse = verses[current_verse]
-    const verseLink = document.getElementById("verseLink")
-    verseLink.innerHTML = (current_verse+1).toString()+": "+verse
+    const boldedNumbers = document.getElementById("boldedNumbers")
+    boldedNumbers.innerHTML = versepair[0]
+
+
+    // const verseLink = document.getElementById("verseLink")
+    // verseLink.innerHTML = (current_verse+1).toString()+": "+verse
+
+    
 
     const verseText = document.getElementById("verseText")
 

@@ -57,6 +57,7 @@ a {
     text-align: center;
     font-weight: bolder;
 }
+
 .grid-container {
     display: grid;
     justify-content: space-evenly;

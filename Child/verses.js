@@ -44,10 +44,6 @@ async function fetchVerse(verseName){
     return data
 }
 
-// function makeTextBold(string){
-//     return "<b>"+string+"</b>"
-// }
-
 function nextVerse() {
     versepair = versepairs[current_verse]
     const CaroselLink = document.getElementById("caroselLink")
