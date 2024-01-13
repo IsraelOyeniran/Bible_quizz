@@ -39,27 +39,55 @@ a {
     padding-right: 1%;
 }
 
-
-p {
+.box {
+    border-radius: 40px;
+    max-width: 850px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    border-style: outset;
+    border-width: 15px;
+    border-color: rgba(54, 54, 54, 0.589); 
     text-align: center;
-    padding-top: 30px;
-    margin-right: 150px;
-    margin-left: 150px;
-    
+    box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
 }
 
-.equal-button {
-    width: 500px;
-    height: 100px; 
+p {
+    font-size: xx-large;
     text-align: center;
-    font-size: 30px;
-    background-color: rgba(2, 27, 168, 0.589); 
-    color: #ffffff; 
+    padding-top: 0px;
+    margin-right: 150px;
+    margin-left: 150px; 
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 45% 45%;
+    gap: 50px;
+    background-color: rgba(0, 0, 0, 0.589);
+    padding: 20px;
+  }
+  
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+  }
+  
+.equal-button {
+    width: 200px;
+    height: 30px; 
+    font-weight: bolder;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(54, 54, 54, 0.589); 
+    color: #000000; 
     border-radius: 15px;
     cursor: pointer;
-    margin: 40px; 
+    margin: 5px; 
     box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
-    margin-left: 400px;
 }
 
 a:hover {
@@ -71,21 +99,6 @@ h1 {
     text-align: center;
 }
 
-
 a:hover {
     color: rgb(255, 0, 0);
 } 
-
-nav.adults2 {
-    margin-left: center;
-    background-color: rgba(2, 27, 168, 0.589); 
-    display: flex;
-    display: 0;
-    height: 20px;
-    max-width: auto;
-    border-style: outset;
-    border-width: 3px;
-    border-color: rgba(2, 27, 168, 0.589); 
-    color:rgb(255, 255, 255); 
-    box-shadow: 5px 15px 5px 5px rgba(19, 5.9, 5.9, 19);    
-}
