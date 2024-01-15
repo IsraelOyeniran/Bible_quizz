@@ -119,8 +119,8 @@ a {
 } */
 
 a:hover {
-    color: rgb(221, 245, 85);
-} 
+    color: #ff0000;
+  }
 
 h2:hover {
     color: rgb(255, 0, 0);
