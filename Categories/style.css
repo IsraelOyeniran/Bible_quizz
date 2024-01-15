@@ -1,4 +1,4 @@
-nav.categories {
+nav.reading_page {
     margin-left: center;
     background-color: rgb(255, 255, 255); 
     display: flex;
@@ -96,7 +96,7 @@ a:hover {
     color: #ff0000;
 }
 
-nav.categories2 {
+nav.reading_page2 {
     margin-left: center;
     background-color: rgb(255, 255, 255); 
     display: flex;
