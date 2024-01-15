@@ -1,34 +1,83 @@
 nav.reading_page {
     margin-left: center;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(221, 245, 85);
     display: flex;
     display: 0;
-    height: 120px;
+    height: 90px;
     max-width: auto;
     border-style: outset 0;
-    border-width: 3px;
+    border-width: 0px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
 
 .logo {
-    height: 120px;
+    height: 90px;
     width: 250px;
 }
 
 body {
-    background-color: rgb(253, 253, 253);
+    background-color: rgba(255, 255, 255, 0.678);
     background-position-x: center;
     background-position-y: center;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
 a {
     text-decoration: none; 
-    color:rgb(0, 0, 0); 
-    font-weight: bold  ;
+    color: #000000; 
+    font-weight: bold   ;
     padding: auto;
     padding-right: 1%;
+}
+
+.link {
+    text-decoration: none; 
+    color: #000000; 
+    font-weight: bold   ;
+    padding: auto;
+    padding-right: 1%;
+}
+
+.box {
+    border-radius: 40px;
+    max-width: 850px;
+    background-color: rgb(221, 245, 85);
+    margin: auto;
+    padding: 50px;
+    border-style: outset;
+    /* border-width: 15px; */
+    border-color: rgb(221, 245, 85); 
+    text-align: justify;
+    box-shadow: 20px 20px 2px #242414;
 }
 
 strong {
