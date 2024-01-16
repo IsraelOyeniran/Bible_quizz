@@ -80,6 +80,30 @@ a {
     box-shadow: 20px 20px 2px #242414;
 }
 
+.select {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 25% 25% 25%;
+    gap: 25px;
+    background-color: rgb(255, 255, 255); 
+    padding: 20px;
+  }
+  
+.grid-container > div {
+    background-color: #04AA6D;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    border-color: black;
+    box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
+  }
+
 strong {
     color: #000;
 }
@@ -147,7 +171,7 @@ a:hover {
 
 nav.reading_page2 {
     margin-left: center;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(221, 245, 85);
     display: flex;
     display: 0;
     height: 20px;
@@ -156,5 +180,5 @@ nav.reading_page2 {
     border-width: 3px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
-    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);    
+    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);        
 }
