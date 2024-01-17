@@ -79,21 +79,8 @@ a {
     box-shadow: 20px 20px 2px #242414;
 }
 
-/* body {
-    background: rgb(253, 253, 253);
-    background-color: rgb(253, 253, 253);
-    background-position-x: center;
-    background-position-y: center;
-    margin: 10;
-    padding: 10;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 
-    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
-    'Open Sans', 'Helvetica Neue', sans-serif;
-    box-sizing: border-box;
-}
-
 .app {
-    background: rgba(54, 54, 54, 0.322);
+    background: rgb(255, 255, 255);
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -163,49 +150,6 @@ a {
     background: #ff9393;
 }
 
-a {
-    text-decoration: none; 
-    color:rgb(0, 0, 0); 
-    font-weight: bold;
-    padding: auto;
-    padding-right: 1%;
-}
-
-.links {
-    text-decoration: none;
-    color: #000000; 
-    font-weight: bold;
-    padding: auto;
-    padding-right: 1%;
-}
-
-.box {
-    border-radius: 40px;
-    max-width: 850px;
-    background-color: white;
-    margin: auto;
-    padding: 50px;
-    border-style: outset;
-    border-width: 15px;
-    border-color: rgba(54, 54, 54, 0.589); 
-    text-align: center;
-    box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
-} */
-
-.select {
-    font-size: xx-large;
-    text-align: center;
-    font-weight: bolder;
-}
-
-/* p {
-    font-size: xx-large;
-    text-align: justify;
-    padding-top: 0px;
-    margin-right: 150px;
-    margin-left: 150px; 
-} */
-
 .grid-container {
     display: grid;
     justify-content: space-evenly;
@@ -224,42 +168,13 @@ a {
     box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
   }
 
-/* .equalbuttons {
-    text-decoration: none;
-    color: #72c407; 
-    font-weight: bold;
-    padding: auto;
-    padding-right: 1%;
-} */
-
 a:hover {
     color: #ff0000;
 } 
 
-.equal-button {
-    width: 200px;
-    height: 30px; 
-    text-align: center;
-    font-size: 16px;
-    background-color: rgba(54, 54, 54, 0.589); 
-    color: #0e0d0d; 
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 5px; 
-    box-shadow: 2px 2px 2px 2px rgba(5.9, 5.9, 5.9, 5.9);
-}
-
-.links {
-    text-decoration: none;
-    color: #000000; 
-    font-weight: bold;
-    padding: auto;
-    padding-right: 1%;
-}
-
 h2 {
     color: #000000;
-    text-align: center;
+    text-align: auto;
 }
 
 nav.quiz2 {
