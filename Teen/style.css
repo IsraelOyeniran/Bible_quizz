@@ -68,7 +68,7 @@ a {
 }
 
 .grid-container {
-    display: grid;
+    display: flex;
     justify-content: center;
     grid-template-columns: 25% 25%;
     gap: 50px;

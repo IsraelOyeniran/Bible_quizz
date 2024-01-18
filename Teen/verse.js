@@ -33,12 +33,11 @@ function nextVerse() {
 
     current_verse += 1
     if (current_verse >= verses.length){
-        current_verse = 0
-    }
-
-    
+        current_verse = 0   
 }
 
 
- const verseLink = document.getElementById("verseLink")
+const verseLink = document.getElementById("verseLink")
     verseLink.innerHTML = (current_verse+1).toString()+": "+verse
+
+}
