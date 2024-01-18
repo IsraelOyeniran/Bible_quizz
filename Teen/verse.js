@@ -40,5 +40,5 @@ function nextVerse() {
 }
 
 
- // const verseLink = document.getElementById("verseLink")
-    // verseLink.innerHTML = (current_verse+1).toString()+": "+verse
+ const verseLink = document.getElementById("verseLink")
+    verseLink.innerHTML = (current_verse+1).toString()+": "+verse
