@@ -154,6 +154,10 @@ a:hover {
     color: rgb(255, 0, 0);
 } 
 
+.equal-button:hover {
+    color: rgb(255, 0, 0);
+}
+
 nav.child2 {
     margin-left: center;
     background-color: rgb(221, 245, 85);

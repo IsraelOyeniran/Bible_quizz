@@ -21,6 +21,9 @@ function nextVerse() {
     verse = verses[current_verse]
     const boldedNumbers = document.getElementById("boldedNumbers")
     boldedNumbers.innerHTML = verse
+
+    const verseLink = document.getElementById("verseLink")
+    verseLink.innerHTML = (current_verse+1).toString()+": "+verse
    
 
     const verseText = document.getElementById("verseText")
@@ -35,9 +38,5 @@ function nextVerse() {
     if (current_verse >= verses.length){
         current_verse = 0   
 }
-
-
-const verseLink = document.getElementById("verseLink")
-    verseLink.innerHTML = (current_verse+1).toString()+": "+verse
 
 }
