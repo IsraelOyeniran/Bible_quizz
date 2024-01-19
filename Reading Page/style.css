@@ -17,6 +17,13 @@ nav.reading_page {
     width: 250px;
 }
 
+h1 {
+    font-size: 40px;
+    padding-left: 30%;
+    padding-top: auto;
+    display: flex;
+  }
+
 body {
     background-color: rgba(255, 255, 255, 0.678);
     background-position-x: center;
@@ -74,7 +81,6 @@ a {
     margin: auto;
     padding: 50px;
     border-style: outset;
-    /* border-width: 15px; */
     border-color: rgb(221, 245, 85); 
     text-align: justify;
     box-shadow: 20px 20px 2px #242414;

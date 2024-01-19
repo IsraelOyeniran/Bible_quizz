@@ -9,13 +9,20 @@ nav.quiz {
     border-width: 0px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
-    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
+    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5); 
 }
 
 .logo {
     height: 90px;
     width: 250px;
 }
+
+h1 {
+    font-size: 40px;
+    padding-left: 25%;
+    padding-top: auto;
+    display: flex;
+  }
 
 body {
     background-color: rgba(255, 255, 255, 0.678);
@@ -68,15 +75,8 @@ a {
     border-style: outset;
     border-color: rgb(221, 245, 85); 
     text-align: justify;
-    box-shadow: 20px 20px 2px #242414;
-
-    h2 {
-        text-align: center;
-    }    
+    box-shadow: 20px 20px 2px #242414;  
 }
-
-
-
 
 .app {
     background: rgb(255, 255, 255);
@@ -93,10 +93,6 @@ a {
     font-size: 25px;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
-}
-
-.quiz {
-    padding: 20px 0;
 }
 
 .quiz h2 {
@@ -140,6 +136,15 @@ a {
     cursor: pointer; 
     display: none; 
 }
+
+/* .grid-container > div {
+    background-color: #04AA6D;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+    border-color: black;
+    box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
+  } */
 
 .correct{
     background: #9aeabc;
