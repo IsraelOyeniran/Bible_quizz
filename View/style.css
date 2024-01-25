@@ -78,12 +78,12 @@ a {
     max-width: 250px;
     background-color: rgb(221, 245, 85);
     margin: auto;
-    padding: 50px;
+    padding: 10px;
     padding-top: 10px;
     border-style: outset;
     border-color: rgb(221, 245, 85); 
     text-align: justify;
-    box-shadow: 20px 20px 2px #242414;
+    box-shadow: 5px 5px 2px #242414;
 
     /* box.h4 {
         text-align: center;
