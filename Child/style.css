@@ -119,9 +119,9 @@ p {
 
 .grid-container {
     display: grid;
-    justify-content: center;
-    grid-template-columns: 25% 25%;
-    gap: 50px;
+    justify-content: space-evenly;
+    grid-template-columns: 25% 25% 25%;
+    gap: 25px;
     /* background-color: rgb(255, 255, 255);  */
     padding: 20px;
     cursor: pointer;

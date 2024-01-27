@@ -17,6 +17,13 @@ nav.view {
     width: 250px;
 }
 
+h1 {
+    font-size: 40px;
+    padding-left: 32%;
+    padding-top: auto;
+    display: flex;
+  }
+
 body {
     background-color: rgba(255, 255, 255, 0.678);
     background-position-x: center;
@@ -51,10 +58,6 @@ ul {
     background-color: #04AA6D;
   }
 
-/* .h3 {
-    text-align: center;
-} */
-
 a {
     text-decoration: none; 
     color: #000000; 
@@ -85,15 +88,10 @@ a {
     text-align: justify;
     box-shadow: 5px 5px 2px #242414;
 
-    /* box.h4 {
-        text-align: center;
-    } */
+    h1 {
+        font-size: 20px;
+      }
 }
-
-/* .border h3 {
-    text-align: center;
-    background-color: #04AA6D;
-} */
 
 .box b {
     margin: auto;
@@ -110,24 +108,6 @@ nav {
     border-color: rgb(0, 0, 0);
     box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
     }
-
-/* p {
-    font-size: 16px;
-    margin: center;
-    font-size: xx-large;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    } */
-/* 
-.grid-container {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 25% 25%;
-    gap: 50px;
-    background-color: rgb(255, 255, 255); 
-    padding: 20px;
-    cursor: pointer;
-  } */
   
 .grid-container > div {
     background-color: #04AA6D;
@@ -137,20 +117,6 @@ nav {
     border-color: black;
     box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
   }
-
-/* .equal-button {
-    width: 200px;
-    height: 30px; 
-    font-weight: bolder;
-    text-align: center;
-    font-size: 16px;
-    background-color: #04AA6D;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-    border-color: black;
-    box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
-} */
 
 a:hover {
     color: rgb(255, 0, 0);
