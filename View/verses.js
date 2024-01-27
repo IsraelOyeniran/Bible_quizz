@@ -38,37 +38,6 @@ versepairs = [
     ["Zz","Psalm 97:8,9"]
 ]
 
-function createVerseSelection(){
-
-    const caroselDiv = document.createElement("div");
-    caroselDiv.id = "carosel"
-
-    const boxDiv = document.createElement("div");
-    boxDiv.class = "box"
-
-    caroselDiv.appendChild(boxDiv)
-
-    const boxLettersDiv = document.createElement("div");
-    boxLettersDiv.id = "boxLetters"
-
-    boxDiv.appendChild(boxLettersDiv)
-
-    const boldedLettersDiv = document.createElement("b");
-    boldedLettersDiv = "boldedLetters"
-    boldedLettersDiv.innerHTML = "Aa"
-    boldedLettersDiv.appendChild(boldedLettersDiv)
-
-    const navBarDiv = document.createElement("nav");
-    navBarDiv.id = "navBarDiv"
-    boxDiv.appendChild(navBarDiv)
-
-    const verseContainer = document.getElementById("verseContainer");
-    verseContainer.appendChild(caroselDiv)
-
-
-    const h1Div = document.createElement("div")
-}
-
 async function fetchVerse(verseName){
     let response = await fetch("https://bible-api.com/"+verseName);
     let data = await response.json()
@@ -97,4 +66,39 @@ function nextVerse() {
     }
 
     
+}
+
+function createVerseSelection(){
+
+    const caroselDiv = document.createElement("div");
+    caroselDiv.id = "carosel"
+
+    const boxDiv = document.createElement("div");
+    boxDiv.class = "box"
+
+    caroselDiv.appendChild(boxDiv)
+
+    const boxLettersDiv = document.createElement("div");
+    boxLettersDiv.id = "boxLetters"
+
+    boxDiv.appendChild(boxLettersDiv)
+
+    const boldedLettersDiv = document.createElement("b");
+    boldedLettersDiv = "boldedLetters"
+    boldedLettersDiv.innerHTML = "Aa"
+    boldedLettersDiv.appendChild(boldedLettersDiv)
+
+    const navBar = document.createElement("navBar");
+    navBar.id = "navBar"
+    boxDiv.appendChild(navBar)
+
+    const verseContainer = document.getElementById("verseContainer");
+    verseContainer.appendChild(verseContainer)
+
+
+    const h1Div = document.createElement("id")
+    h1Div.appendChild(id)
+
+    console.log(h1Div)
+    print = h1Div
 }

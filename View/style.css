@@ -10,19 +10,19 @@ nav.view {
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
+
+    h1 {
+        font-size: 40px;
+        padding-left: 31%;
+        padding-top: auto;
+        display: flex;
+      }
 }
 
 .logo {
     height: 90px;
     width: 250px;
 }
-
-h1 {
-    font-size: 40px;
-    padding-left: 31%;
-    padding-top: auto;
-    display: flex;
-  }
 
 body {
     background-color: rgba(255, 255, 255, 0.678);
