@@ -72,7 +72,7 @@ a {
     justify-content: center;
     grid-template-columns: 25% 25%;
     gap: 50px;
-    background-color: rgb(255, 255, 255); 
+    /* background-color: rgb(255, 255, 255);  */
     padding: 20px;
     cursor: pointer;
   }

@@ -19,7 +19,7 @@ nav.quiz {
 
 h1 {
     font-size: 40px;
-    padding-left: 30%;
+    padding-left: 33%;
     padding-top: auto;
     display: flex;
   }
@@ -151,7 +151,7 @@ a {
     justify-content: space-evenly;
     grid-template-columns: 25% 25%;
     gap: 50px;
-    background-color: rgb(255, 255, 255); 
+    /* background-color: rgb(255, 255, 255);  */
     padding: 20px;
   }
   
