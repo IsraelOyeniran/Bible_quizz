@@ -38,8 +38,8 @@ versepairs = [
     ["Zz","Psalm 97:8,9"]
 ]
 
-async function fetchVerse(verseName){
-    let response = await fetch("https://bible-api.com/"+verseName);
+async function fetchVerse(versepairs){
+    let response = await fetch("https://bible-api.com/"+versepairs);
     let data = await response.json()
     return data
 }
@@ -47,10 +47,10 @@ async function fetchVerse(verseName){
 function nextVerse() {
     versepair = versepairs[current_verse]
     const CaroselLink = document.getElementById("caroselLink")
-    CaroselLink.innerHTML = versepair[1]
+    CaroselLink.innerHTML = versepairs[1]
 
     const boldedLetters = document.getElementById("boldedLetters")
-    boldedLetters.innerHTML = versepair[0]
+    boldedLetters.innerHTML = versepairs[0]
 
     const bodyText = document.getElementById("caroselText")
 
