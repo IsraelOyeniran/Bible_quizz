@@ -67,38 +67,3 @@ function nextVerse() {
 
     
 }
-
-function createVerseSelection(){
-
-    const caroselDiv = document.createElement("div");
-    caroselDiv.id = "carosel"
-
-    const boxDiv = document.createElement("div");
-    boxDiv.class = "box"
-
-    caroselDiv.appendChild(boxDiv)
-
-    const boxLettersDiv = document.createElement("div");
-    boxLettersDiv.id = "boxLetters"
-
-    boxDiv.appendChild(boxLettersDiv)
-
-    const boldedLettersDiv = document.createElement("b");
-    boldedLettersDiv = "boldedLetters"
-    boldedLettersDiv.innerHTML = "Aa"
-    boldedLettersDiv.appendChild(boldedLettersDiv)
-
-    const navBar = document.createElement("navBar");
-    navBar.id = "navBar"
-    boxDiv.appendChild(navBar)
-
-    const verseContainer = document.getElementById("verseContainer");
-    verseContainer.appendChild(verseContainer)
-
-
-    const h1Div = document.createElement("id")
-    h1Div.appendChild(id)
-
-    console.log(h1Div)
-    print = h1Div
-}
