@@ -38,6 +38,37 @@ versepairs = [
     ["Zz","Psalm 97:8,9"]
 ]
 
+function createVerseSelection(){
+    const caroselDiv = document.createElement("Div");
+    caroselDiv.id = "carosel"
+
+    const boxDiv = document.createElement("Div");
+    boxDiv.class = "box"
+
+    caroselDiv.appendChild(boxDiv)
+
+    const boxLettersDiv = document.createElement("Div")
+    boxLettersDiv.id = "boxLetters"
+
+    boxDiv.appendChild("boxLetters")
+
+    const boldedLettersDiv = document.createElement("b")
+    boldedLettersDiv.id = "boldedLetters"
+    boldedLettersDiv.innerHTML = "Aa"
+    boxLettersDiv.append(boldedLettersDiv)
+    
+    const navBarDiv = document.createElement("narBar")
+    navBarDiv.id = "navBar"
+    boxDiv.appendChild(navBarDiv)
+
+    const verseContainer = getElementById("verseContainer")
+    verseContainer.appendChild(caroselDiv)
+
+
+    
+}
+
+
 async function fetchVerse(versepairs){
     let response = await fetch("https://bible-api.com/"+versepairs);
     let data = await response.json()
