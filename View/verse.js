@@ -64,6 +64,8 @@ function createVerseSelection(){
 
     const verseContainer = getElementById("verseContainer")
     verseContainer.appendChild(caroselDiv)  
+
+    console.log(verseContainer)
 }
 
 function createVerseSelection(){
@@ -71,6 +73,7 @@ function createVerseSelection(){
         
     });
 }
+
 
 
 // async function fetchVerse(versepairs){
