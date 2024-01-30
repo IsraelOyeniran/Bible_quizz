@@ -63,39 +63,42 @@ function createVerseSelection(){
     boxDiv.appendChild(navBarDiv)
 
     const verseContainer = getElementById("verseContainer")
-    verseContainer.appendChild(caroselDiv)
+    verseContainer.appendChild(caroselDiv)  
+}
 
+function createVerseSelection(){
+    versepairs.array.array.forEach(element => {
+        
+    });
+}
+
+
+// async function fetchVerse(versepairs){
+//     let response = await fetch("https://bible-api.com/"+versepairs);
+//     let data = await response.json()
+//     return data
+// }
+
+// function nextVerse() {
+//     versepair = versepairs[current_verse]
+//     const CaroselLink = document.getElementById("caroselLink")
+//     CaroselLink.innerHTML = versepairs[1]
+
+//     const boldedLetters = document.getElementById("boldedLetters")
+//     boldedLetters.innerHTML = versepairs[0]
+
+//     const bodyText = document.getElementById("caroselText")
+
+//     fetchVerse(verses[current_verse]).then((data) => {
+//             console.log(data)
+//             bodyText.innerHTML = data.text
+//         }
+//     )
+
+//     current_verse += 1
+//     if (current_verse >= versepairs.length){
+//         current_verse = 0
+//     }
 
     
-}
-
-
-async function fetchVerse(versepairs){
-    let response = await fetch("https://bible-api.com/"+versepairs);
-    let data = await response.json()
-    return data
-}
-
-function nextVerse() {
-    versepair = versepairs[current_verse]
-    const CaroselLink = document.getElementById("caroselLink")
-    CaroselLink.innerHTML = versepairs[1]
-
-    const boldedLetters = document.getElementById("boldedLetters")
-    boldedLetters.innerHTML = versepairs[0]
-
-    const bodyText = document.getElementById("caroselText")
-
-    fetchVerse(verses[current_verse]).then((data) => {
-            console.log(data)
-            bodyText.innerHTML = data.text
-        }
-    )
-
-    current_verse += 1
-    if (current_verse >= versepairs.length){
-        current_verse = 0
-    }
-
-    
-}
+// }
