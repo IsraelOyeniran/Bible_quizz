@@ -39,11 +39,12 @@ versepairs = [
 ]
 
 function createVerseSelection(){
+
     const caroselDiv = document.createElement("Div");
     caroselDiv.id = "carosel"
 
     const boxDiv = document.createElement("Div");
-    boxDiv.class = "box"
+    boxDiv.className = "box"
 
     caroselDiv.appendChild(boxDiv)
 
@@ -57,7 +58,7 @@ function createVerseSelection(){
     boldedLettersDiv.innerHTML = "Aa"
     boxLettersDiv.append(boldedLettersDiv)
     
-    const navBarDiv = document.createElement("narBar")
+    const navBarDiv = document.createElement("nav")
     navBarDiv.id = "navBar"
     boxDiv.appendChild(navBarDiv)
 
