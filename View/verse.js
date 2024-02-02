@@ -37,7 +37,9 @@ versepairs = [
     ["Xx","Matthew 18:3"],
     ["Yy","Matthew 5:14,16"],
     ["Zz","Psalm 97:8,9"]
-]
+];
+
+console.log(carosel)
 
 async function getVerse(verseIndex){
     let response = await fetch(
@@ -55,7 +57,6 @@ let verseMessage = document.querySelector("dialog p");
 closeButton.addEventListener("click", () => {
     dialog.close();
 });
-
 
 versepairs.forEach((versepair, index => {
     let box = document.createElement("div");
@@ -95,7 +96,7 @@ versepairs.forEach((versepair, index => {
     parentElement.appendChild(box);
 }));
 
-    
+
 
 
 
