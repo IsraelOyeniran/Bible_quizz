@@ -1,4 +1,4 @@
-current_verse = 1
+// current_verse = 1
 // letters = ["Aa","Bb","Cc","Dd","Ee","Ff","Gg","Hh","Ii","Jj","Kk","Ll","Mm",
 //             "Nn","Oo","Pp","Qq","Rr","Ss","Tt","Uu","Vv","Ww","Xx","Yy","Zz"]
 
@@ -41,7 +41,7 @@ versepairs = [
 
 async function getVerse(verseIndex){
     let response = await fetch(
-        'https://bible-api.com/${versepairs[verseIndex][1]}'
+        `https://bible-api.com/${versepairs[verseIndex][1]}`
     );
     let data = await response.json()
     return data.text;
