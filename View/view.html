@@ -7,7 +7,6 @@ style="font-family: system-ui, -apple-system,
 <head>
     <link rel="stylesheet" href="style.css">
     <title>DAILY BIBLE STUDY PLANS AND QUIZ</title>
-    <script src="verse.js"></script>
 </head>
 
     <body>
@@ -26,6 +25,10 @@ style="font-family: system-ui, -apple-system,
         <br>
 
         <div id="verseContainer">
+            <dialog id="verseDialog">
+                <p id="verseText"></p>
+                <button id="closeButton">Close</button>
+            </dialog>
             
             <div id="carosel">
                 <div class="box">   
@@ -45,44 +48,13 @@ style="font-family: system-ui, -apple-system,
                 </div>
             </div><br>
 
-            <div id="carosel">
-                <div class="box"> 
-
-                    <div id="boxLetters">
-                        <b id="boldedLetters">
-                            Aa
-                        </b>
-                    </div>
-
-                        <Nav id="navBar">
-                            <h1 id="style">
-                                <a id="caroselLink" href="https://biblehub.com/romans/3-23.htm">
-                                    Romans 3:23
-                                </a>
-                            </h1>
-                        </Nav><hr>
-                </div>
-            </div><br>
-
-            <!-- <div id="carosel">
-                <div class="box">             
-                    <div id="boxLetters">
-                        <b id="boldedLetters">Aa</b>
-                    </div>
-                        <Nav id="navBar">
-                            <h1 id="style">
-                                <a id="caroselLink" href="https://biblehub.com/romans/3-23.htm">
-                                    Romans 3:23
-                                </a>
-                            </h1>
-                        </Nav><hr>
-                </div>
-            </div> -->
+        
             <br><br><br>
             <br>
         </div>
         <hr> 
         <nav class="child2"></nav>
+        <script src="verse.js"></script>
     </body>
     </html>
 

@@ -135,3 +135,51 @@ nav.view2 {
     color:rgb(0, 0, 0); 
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
+
+#carosel {
+  display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 25% 25% 25%;
+    gap: 25px;
+    /* background-color: rgb(255, 255, 255);  */
+    padding: 20px;
+}
+
+::backdrop {
+  background-color: #000000d4;
+  opacity: 0.75;
+}
+
+#verseDialog {
+  background-color: #f4f4f4;
+  padding: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 2px #242414;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+#closeButton {
+  background-color: rgb(140, 157, 46);
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 2px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: #023723;
+}
