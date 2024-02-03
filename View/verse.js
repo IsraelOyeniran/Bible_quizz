@@ -1,15 +1,3 @@
-// current_verse = 1
-// letters = ["Aa","Bb","Cc","Dd","Ee","Ff","Gg","Hh","Ii","Jj","Kk","Ll","Mm",
-//             "Nn","Oo","Pp","Qq","Rr","Ss","Tt","Uu","Vv","Ww","Xx","Yy","Zz"]
-
-// verses = ['Romans 3:23','Acts 16:31','Colossians 3:20','Matthew 7:12',
-//             'Proverbs 20:11','Isaiah 43:1','1 Thessalonians 5:18',
-//             'Exodus 20:12','John 15:5','Hebrews 13:8','Psalm 34:13','Isaiah 45:22',
-//             'John 3:7','Matthew 6:24','Psalm 89:8','Ephesians 6:11, 14-17','1 Thessalonians 5:19',
-//             'Exodus 20:8-10','Matthew 6:33','Proverbs 3:5-6','Isaiah 9:6-7','Romans 12:19,21',
-//             'Psalm 27:14','Matthew 18:3','Matthew 5:14,16','Psalm 97:8,9'
-//         ]
-
 versepairs = [
     ["Aa","Romans 3:23"],
     ["Bb","Acts 16:31"],
@@ -39,9 +27,7 @@ versepairs = [
     ["Zz","Psalm 97:8,9"]
 ];
 
-console.log(carosel)
-
-async function getVerse(verseIndex){
+async function getVerse(verseIndex) {
     let response = await fetch(
         `https://bible-api.com/${versepairs[verseIndex][1]}`
     );
@@ -58,7 +44,8 @@ closeButton.addEventListener("click", () => {
     dialog.close();
 });
 
-versepairs.forEach((versepair, index => {
+
+versepairs.forEach((versepair, index) => {
     let box = document.createElement("div");
     box.className = "box";
 
@@ -94,7 +81,7 @@ versepairs.forEach((versepair, index => {
     box.appendChild(textDiv);
 
     parentElement.appendChild(box);
-}));
+});
 
 
 
