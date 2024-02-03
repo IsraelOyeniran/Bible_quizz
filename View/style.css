@@ -80,14 +80,8 @@ a {
     grid-template-columns: 25% 25% 25%;
     gap: 25px;
     padding: 20px;
-
-
     border-radius: 40px;
-    /* max-width: 250px; */
     background-color: rgb(221, 245, 85);
-    /* margin: auto; */
-    /* padding: 10px; */
-    /* padding-top: 10px; */
     border-style: outset;
     border-color: rgb(221, 245, 85); 
     text-align: justify;
@@ -102,13 +96,13 @@ a {
     color: #ff004c;
     }
 
-/* nav {
+nav {
     background-color: #04AA6D;
     border-style: outset;
     border-width: 0;
     border-color: rgb(0, 0, 0);
     box-shadow: 2px 2px 2px 2px rgba(9, 5.9, 5.9, 9);
-} */
+}
   
 .grid-container > div {
     background-color: #04AA6D;
@@ -141,13 +135,13 @@ nav.view2 {
     box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
 
-/* #carosel {
+#carosel {
   display: grid;
   justify-content: space-evenly;
   grid-template-columns: 25% 25% 25%;
   gap: 25px;
   padding: 20px;
-} */
+}
 
 ::backdrop {
   background-color: #000000d4;
@@ -165,7 +159,7 @@ nav.view2 {
 }
 
 #closeButton {
-  background-color: rgb(140, 157, 46);
+  background-color: #04AA6D;
   padding: 10px;
   border-radius: 10px;
   max-width: 500px;
@@ -174,16 +168,18 @@ nav.view2 {
 }
 
 button {
-  background-color: #04AA6D;
-  color: white;
-  padding: 14px 2px;
+  background-color: rgba(128, 141, 53, 0.705);
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  font-size: medium;
+  padding: 10px 2px;
   border: none;
   cursor: pointer;
-  width: 100%;
-  border-radius: 10px;
-}
+  width: 194px;
+  border-radius: 10px 0px 0px 10px;
+} 
 
 button:hover {
   opacity: 0.8;
-  background-color: #023723;
+  background-color: #04AA6D;
 }
