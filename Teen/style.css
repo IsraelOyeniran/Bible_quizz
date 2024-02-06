@@ -68,10 +68,10 @@ a {
 }
 
 .grid-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-content: space-evenly;
     grid-template-columns: 25% 25%;
-    gap: 50px;
+    gap: 25px;
     /* background-color: rgb(255, 255, 255);  */
     padding: 20px;
     cursor: pointer;
