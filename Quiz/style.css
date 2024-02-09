@@ -19,7 +19,7 @@ nav.quiz {
 
 h1 {
     font-size: 40px;
-    padding-left: 33%;
+    padding-left: 30%;
     padding-top: auto;
     display: flex;
   }
@@ -75,7 +75,11 @@ a {
     border-style: outset;
     border-color: rgb(221, 245, 85); 
     text-align: justify;
-    box-shadow: 20px 20px 2px #242414;  
+    box-shadow: 20px 20px 2px #242414; 
+}
+
+.box b {
+    text-align: center;
 }
 
 .app {
@@ -91,9 +95,7 @@ a {
     font-weight: 1000px;
     color: #000000;
     font-size: 25px;
-    /* border-bottom: 1px solid #333; */
     padding-bottom: 30px;
-    text-align: center;
 }
 
 .quiz h2 {

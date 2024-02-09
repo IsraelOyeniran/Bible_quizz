@@ -82,10 +82,10 @@ const all_questions = [
     {
         question: "How many books in the New Testament?",
         answers: [
-            {text: "(A) 49 books in the NT", correct: false},
-            {text: "(B) 34 books in the NT", correct: false},
-            {text: "(C) 27 books in the NT", correct: true},
-            {text: "(A) 20 books in the NT", correct: false},
+            {text: "(A) 49 books in the New Testament", correct: false},
+            {text: "(B) 34 books in the New Testament", correct: false},
+            {text: "(C) 27 books in the New Testament", correct: true},
+            {text: "(A) 20 books in the New Testament", correct: false},
         ]  
     },
 
@@ -300,7 +300,7 @@ const all_questions = [
     },
 
     {
-        question: "What did God say?",
+        question: "What did God say when He spoke?",
         answers: [
             {text: "(A) That he was well-pleased with his son.", correct: true},
             {text: "(B) That he can laugh", correct: false},
