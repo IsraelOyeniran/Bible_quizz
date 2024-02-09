@@ -172,10 +172,10 @@ const all_questions = [
     {
         question: "What did Simon Peter do for a living?",
         answers: [
-            {text: "(A) Basket Maker", correct: false},
-            {text: "(B) Truck Driver", correct: false},
+            {text: "(A) King", correct: false},
+            {text: "(B) Shephard", correct: false},
             {text: "(C) Fisherman", correct: true},
-            {text: "(D) Trader", correct: false},
+            {text: "(D) Preacher", correct: false},
         ]  
     },
 
@@ -360,7 +360,7 @@ const all_questions = [
     },
 
     {
-        question: "Why did Jesus weep in that verse?",
+        question: "Why did Jesus weep in the Bible?",
         answers: [
             {text: "(A) Because his father died", correct: false},
             {text: "(B) Because he was hungry", correct: false},
