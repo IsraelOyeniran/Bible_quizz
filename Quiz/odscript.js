@@ -1,81 +1,81 @@
 const all_questions = [
     {
-        question: "Where was Jesus born?",
+        question: "Which book of the Bible tells about the beginnings of the world?",
         answers: [
-            {text: "(A) Nazareth", correct: false},
-            {text: "(B) Jerusalem", correct: false},
-            {text: "(C) Bethlehem", correct: true},
-            {text: "(D) Capernaum", correct: false},
+            {text: "(A) Genesis", correct: true},
+            {text: "(B) Matthew", correct: false},
+            {text: "(C) Exodus", correct: false},
+            {text: "(D) Mark", correct: false},
         ]
     },
 
     {
-        question: "How many disciples did Jesus have?",
+        question: "In what language was most of the Old Testament written?",
         answers: [
-            {text: "(A) 12", correct: true},
-            {text: "(B) 7", correct: false},
-            {text: "(C) 11", correct: false},
-            {text: "(D) 9", correct: false},
+            {text: "(A) Hebrew", correct: true},
+            {text: "(B) Greek", correct: false},
+            {text: "(C) English", correct: false},
+            {text: "(D) French", correct: false},
         ]
     },
 
     {
-        question: "How did Jesus die?",
+        question: "Which of the Old Testament books is a collection of hymns and songs?",
         answers: [
-            {text: "(A) He was flogged to death", correct: false},
-            {text: "(B) He was crucified", correct: true},
-            {text: "(C) He was stoned", correct: false},
-            {text: "(D) He was burned outside the city wall", correct: false},
+            {text: "(A) Song of Solomon", correct: false},
+            {text: "(B) Psalms", correct: true},
+            {text: "(C) Ecclesiastes", correct: false},
+            {text: "(D) Isaiah", correct: false},
         ]
     },
 
     {
-        question: "What is the name of the disciple who betrayed Jesus?",
+        question: "Who wrote many of the Psalms?",
         answers: [
             {text: "(A) Simon Peter", correct: false},
             {text: "(B) Andrew", correct: false},
             {text: "(C) Bartholomew", correct: false},
-            {text: "(D) Judas Iscariot", correct: true}, 
+            {text: "(D) King David", correct: true}, 
         ]
     },
 
     {
-        question: "Who gave Jesus gifts when he was born?",
+        question: "Where did the universe come from?",
         answers: [
-            {text: "(A) The wise men", correct: true},
-            {text: "(B) The shepherds", correct: false},
-            {text: "(C) Mary", correct: false},
-            {text: "(D) The innkeeper", correct: false},
+            {text: "(A) Genesis 1:1", correct: true},
+            {text: "(B) Revelation", correct: false},
+            {text: "(C) Number", correct: false},
+            {text: "(D) Heaven", correct: false},
         ]
     },
 
     {
-        question: "What is the shortest book in the Bible?",
+        question: "Who were the first man and first woman?",
         answers: [
-            {text: "(A) Ezekiel", correct: false},
-            {text: "(B) 1 Peter", correct: false},
-            {text: "(C) Jude", correct: false},
-            {text: "(D) 3 John", correct: true},
+            {text: "(A) Abraham and Sarah", correct: false},
+            {text: "(B) Adam and Ruth", correct: false},
+            {text: "(C) Adam and Sarah", correct: false},
+            {text: "(D) Adam and Eve", correct: true},
         ] 
     },
 
     {
-        question: "With what did Jesus feed 5000 people?",
+        question: "Who were the first two brothers?",
         answers: [
-            {text: "(A) Corn and roast lamb", correct: false},
-            {text: "(B) Almonds and figs", correct: false},
-            {text: "(C) Herbs and fruit of the fields", correct: false},
-            {text: "(D) Loaves and fishes", correct: true},
+            {text: "(A) Cain and Paul", correct: false},
+            {text: "(B) Abraham and Arron", correct: false},
+            {text: "(C) Cain and John", correct: false},
+            {text: "(D) Cain and Abel", correct: true},
         ] 
     },
 
     {
-        question: "What is the name of the prayer Jesus taught to his disciples?",
+        question: "How did sin enter the world?",
         answers: [
-            {text: "(A) The Righteous Prayer", correct: false},
-            {text: "(B) The Lord’s Prayer", correct: true},
-            {text: "(C) The Prayer of Peace", correct: false},
-            {text: "(D) The Prayer of Jesus", correct: false},
+            {text: "(A) Through snake", correct: false},
+            {text: "(B) Through the disobedience of Adam and Eve", correct: true},
+            {text: "(C) Through apple fruits", correct: false},
+            {text: "(D) Through animals", correct: false},
         ]  
     },
 
