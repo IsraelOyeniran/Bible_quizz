@@ -466,7 +466,7 @@ const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
-let currentQuestionIndex = 0;
+let currentQuestionOdquiz = 0;
 let questionsFinished = 0;
 let score = 0;
 
@@ -477,7 +477,7 @@ function getRandomInt(max){
 function showQuestion(){
     resetState();
     questionsFinished += 1;
-    let currentQuestion = questions[currentQuestionIndex];
+    let currentQuestion = questions[currentQuestionOdquiz];
     let questionNo = questionsFinished;
     questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
 
@@ -528,7 +528,7 @@ function showScore(){
 
 function handleNextButton(){
     currentQuestionIndex++;
-    if(currentQuestionIndex < questions.length){
+    if(currentQuestionOdquiz < questions.length){
         showQuestion();
     }else{
         showScore();
