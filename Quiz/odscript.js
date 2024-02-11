@@ -80,292 +80,352 @@ const all_questions = [
     },
 
     {
-        question: "How many books in the New Testament?",
+        question: "What man walked with God until God took him to heaven without dying?",
         answers: [
-            {text: "(A) 49 books in the NT", correct: false},
-            {text: "(B) 34 books in the NT", correct: false},
-            {text: "(C) 27 books in the NT", correct: true},
-            {text: "(A) 20 books in the NT", correct: false},
+            {text: "(A) Abraham", correct: false},
+            {text: "(B) Elijah", correct: false},
+            {text: "(C) Enoch", correct: true},
+            {text: "(A) Isaac", correct: false},
         ]  
     },
 
     {
-        question: "Which New T book has Jesus' Sermon on the Mount?",
+        question: "Who lived longer than any other person, and how long did he live?",
         answers: [
-            {text: "(A) Mark", correct: false},
-            {text: "(B) Judge", correct: false},
+            {text: "(A) Adam", correct: false},
+            {text: "(B) Abraham", correct: false},
+            {text: "(C) Moses", correct: false},
+            {text: "(D) Methuselah", correct: true},
+        ] 
+    },
+
+    {
+        question: "Whom did God spare from the Great Flood?",
+        answers: [
+            {text: "(A) Noah and his family", correct: true},
+            {text: "(B) Noah only", correct: false},
+            {text: "(C) Noah and the animals", correct: false},
+            {text: "(D) Just the animals", correct: false},
+        ] 
+    },
+
+    {
+        question: "What was the first thing that God created? ",
+        answers: [
+            {text: "(A) Sun", correct: false},
+            {text: "(B) Water", correct: false},
+            {text: "(C) Light", correct: true},
+            {text: "(D) Moon", correct: false},
+        ]
+    },
+
+    {
+        question: "Which day did God create plants? ",
+        answers: [
+            {text: "(A) Third", correct: true},
+            {text: "(B) First", correct: false},
+            {text: "(C) Fourth", correct: false},
+            {text: "(D) Sixth", correct: false},
+        ]
+    },
+
+    {
+        question: "What was the boat Noah built called? ",
+        answers: [
+            {text: "(A) War ship", correct: false},
+            {text: "(B) An ark", correct: true},
+            {text: "(C) Fishing boat", correct: false},
+            {text: "(D) Cruise ship", correct: false},
+        ]
+    },
+
+    {
+        question: "How many of each type of animal did Noah have on the ark? ",
+        answers: [
+            {text: "(A) Seven", correct: false},
+            {text: "(B) One", correct: false},
+            {text: "(C) Twelve", correct: false},
+            {text: "(D) Two", correct: true}, 
+        ]
+    },
+
+    {
+        question: "What is the symbol of God’s promise to Noah?",
+        answers: [
+            {text: "(A) The rainbow", correct: true},
+            {text: "(B) The moon", correct: false},
+            {text: "(C) The sun", correct: false},
+            {text: "(D) The rain", correct: false},
+        ]
+    },
+
+    {
+        question: "Who received the 10 commandments from God?",
+        answers: [
+            {text: "(A) Abraham", correct: false},
+            {text: "(B) Peter", correct: false},
+            {text: "(C) Noah", correct: false},
+            {text: "(D) Moses", correct: true},
+        ] 
+    },
+
+    {
+        question: "What are we told to do in the fifth commandment?",
+        answers: [
+            {text: "(A) Honor your father and brother", correct: false},
+            {text: "(B) Love one another", correct: false},
+            {text: "(C) Honor your prophet", correct: false},
+            {text: "(D) Honor your father and mother", correct: true},
+        ] 
+    },
+
+    {
+        question: "What food do we ask God to give us in the Lord’s Prayer?",
+        answers: [
+            {text: "(A) Carmel meat", correct: false},
+            {text: "(B) Our daily bread", correct: true},
+            {text: "(C) Communion", correct: false},
+            {text: "(D) Bread and fish", correct: false},
+        ]  
+    },
+
+    {
+        question: "This young boy defeated a giant?",
+        answers: [
+            {text: "(A) Samson", correct: false},
+            {text: "(B) Joseph", correct: false},
             {text: "(C) James", correct: false},
-            {text: "(D) Matthew", correct: true},
+            {text: "(D) David", correct: true},
         ] 
     },
 
     {
-        question: "Who are the religious leaders who continually tried to trap Jesus with their questions?",
+        question: "This prophet was swallowed by a fish.",
         answers: [
-            {text: "(A) Pharisees", correct: true},
-            {text: "(B) Stoics", correct: false},
-            {text: "(C) Epicureans", correct: false},
-            {text: "(D) Galileans", correct: false},
+            {text: "(A) Jonah", correct: true},
+            {text: "(B) Peter", correct: false},
+            {text: "(C) Paul", correct: false},
+            {text: "(D) Solomon", correct: false},
         ] 
     },
 
     {
-        question: "What did Jesus do for Lazarus?",
+        question: "Who were the three sons of Noah?",
         answers: [
-            {text: "(A) Cooked him dinner", correct: false},
-            {text: "(B) Took him for a walk", correct: false},
-            {text: "(C) Healed him from a fever", correct: false},
-            {text: "(D) Raised him from the dead", correct: true},
-        ] 
-    },
-
-    {
-        question: "What is the name of Jesus’ mother?",
-        answers: [
-            {text: "(A) Mary", correct: true},
-            {text: "(B) Salome", correct: false},
-            {text: "(C) Joanna", correct: false},
-            {text: "(D) Martha", correct: false},
+            {text: "(A) Shem, Cain, Japheth", correct: false},
+            {text: "(B) Ephraim, Ham, Japheth", correct: false},
+            {text: "(C) Joseph, Ham, Japheth", correct: false},
+            {text: "(D) Shem, Ham, Japheth", correct: true},
         ]  
     },
 
     {
-        question: "What job did Jesus’ earthly father, Joseph, do?",
+        question: "When the flood came, how long did it rain?",
         answers: [
-            {text: "(A) Fisherman", correct: false},
-            {text: "(B) Carpenter", correct: true},
-            {text: "(C) Tentmaker", correct: false},
-            {text: "(D) Shephard", correct: false},
+            {text: "(A) 50 days and nights", correct: false},
+            {text: "(B) 45 days and nights", correct: false},
+            {text: "(C) 47 days and nights", correct: false},
+            {text: "(D) 40 days and nights", correct: true},
         ]  
     },
 
     {
-        question: "What is the collective name of the stories Jesus told?",
+        question: "After the flood, how did the people rebel against God?",
         answers: [
-            {text: "(A) Miracles", correct: false},
-            {text: "(B) Poems", correct: false},
-            {text: "(C) Parables", correct: true},
-            {text: "(D) Psalms", correct: false},
+            {text: "(A) By fighting one and other", correct: false},
+            {text: "(B) By cursing God", correct: false},
+            {text: "(C) By building a tower to reach heaven", correct: true},
+            {text: "(D) By refusing to worship God", correct: false},
         ]  
     },
 
     {
-        question: "Who wrote a lot of the letters to churches in the New Testament?",
+        question: "How many people boarded Noah’s Ark?",
         answers: [
-            {text: "(A) Joseph", correct: false},
-            {text: "(B) Jesus", correct: false},
-            {text: "(C) Jairus", correct: false},
-            {text: "(D) Paul", correct: true},
-        ]  
+            {text: "(A) Eight (8)", correct: true},
+            {text: "(B) Eleven (11)", correct: false},
+            {text: "(C) Six (6)", correct: false},
+            {text: "(D) Three (3)", correct: false},
+        ]
     },
 
     {
-        question: "Who wanted to kill Jesus when he was a baby?",
+        question: "What did Joshua command to stay still?",
         answers: [
-            {text: "(A) Caesar", correct: false},
-            {text: "(B) John the Baptist", correct: false},
-            {text: "(C) The wise men", correct: false},
-            {text: "(D) Herod", correct: true},
-        ]  
+            {text: "(A) Moon and stars", correct: false},
+            {text: "(B) Moon & Sun", correct: true},
+            {text: "(C) Fire on the mountain", correct: false},
+            {text: "(D) The sea", correct: false},
+        ]
     },
 
     {
-        question: "What did Simon Peter do for a living?",
+        question: "How many plagues are in Exodus?",
         answers: [
-            {text: "(A) Basket Maker", correct: false},
-            {text: "(B) Truck Driver", correct: false},
-            {text: "(C) Fisherman", correct: true},
-            {text: "(D) Trader", correct: false},
-        ]  
+            {text: "(A) Seven (7)", correct: false},
+            {text: "(B) Twelve (12)", correct: false},
+            {text: "(C) Three (3)", correct: false},
+            {text: "(D) Ten (10)", correct: true},
+        ]
     },
 
     {
-        question: "What happened to Jesus after the resurrection?",
+        question: "Who is the first murderer in the Bible?",
         answers: [
-            {text: "(A) He went to live with Mary and Martha", correct: false},
-            {text: "(B) He made himself king", correct: false},
-            {text: "(C) He went to live in Jerusalem", correct: false},
-            {text: "(D) He ascended into heaven", correct: true},
-        ]  
+            {text: "(A) Adam", correct: false},
+            {text: "(B) The snake", correct: false},
+            {text: "(C) Cain", correct: true},
+            {text: "(D) Eve", correct: false},
+        ]
     },
 
     {
-        question: "What did the Holy Spirit look like when the disciples received it?",
+        question: "Which place is called “Zion” and “the city of David”?",
         answers: [
-            {text: "(A) A rushing wind", correct: false},
-            {text: "(B) Tongues of fire", correct: true},
-            {text: "(C) White doves", correct: false},
-            {text: "(D) Billowing clouds", correct: false},
-        ]  
+            {text: "(A) Syria", correct: false},
+            {text: "(B) Jerusalem", correct: true},
+            {text: "(C) Egypt", correct: false},
+            {text: "(D) Israel", correct: false},
+        ]
     },
 
     {
-        question: "What was most likely the first Gospel written?",
+        question: "Who was Abraham's nephew?",
         answers: [
             {text: "(A) Matthew", correct: false},
-            {text: "(B) Exodus", correct: false},
-            {text: "(C) Mark", correct: true},
-            {text: "(D) Solomon", correct: false},
+            {text: "(B) Aaron", correct: false},
+            {text: "(C) Lot", correct: true},
+            {text: "(D) Jacob", correct: false},
         ]
     },
 
     {
-        question: "In what language was most of the New Testament given?",
+        question: "What was the original name of the country God promised to Abraham?",
         answers: [
-            {text: "(A) English", correct: false},
-            {text: "(B) Greek", correct: true},
-            {text: "(C) Spanish", correct: false},
-            {text: "(D) French", correct: false},
-        ]
-    },
-
-    {
-        question: "What was most likely the last Gospel written?",
-        answers: [
-            {text: "(A) Matthew", correct: false},
-            {text: "(B) Mark", correct: false},
-            {text: "(C) John", correct: true},
-            {text: "(D) Luke", correct: false},
-        ]
-    },
-
-    {
-        question: "What was most likely the first of Paul's letters written",
-        answers: [
-            {text: "(A) 1 Thessalonians", correct: true},
-            {text: "(B) Exodus", correct: false},
-            {text: "(C) Mark", correct: false},
-            {text: "(D) Solomon", correct: false},
-        ]
-    },
-
-    {
-        question: "Where did Jesus’ family go when Herod wanted to harm him as baby?",
-        answers: [
-            {text: "(A) Church", correct: false},
+            {text: "(A) Egypt", correct: false},
             {text: "(B) Jerusalem", correct: false},
             {text: "(C) Rome", correct: false},
-            {text: "(D) Egypt", correct: true},
+            {text: "(D) Canaan", correct: true},
         ]
     },
 
     {
-        question: "How many of Jesus’ brothers are named in the Bible?",
+        question: "Who was Abraham's wife?",
         answers: [
-            {text: "(A) Twelve (12)", correct: false},
-            {text: "(B) Four (4)", correct: true},
-            {text: "(C) None (0)", correct: false},
-            {text: "(D) Seven (7)", correct: false},
+            {text: "(A) Rebecca (12)", correct: false},
+            {text: "(B) Sarah (4)", correct: true},
+            {text: "(C) Naomi (0)", correct: false},
+            {text: "(D) Ruth (7)", correct: false},
         ]
     },
 
     {
-        question: "How many of Jesus’ sisters are named in the Bible?",
+        question: "To what country did Abraham go in time of famine?",
         answers: [
-            {text: "(A) Twelve (12)", correct: false},
-            {text: "(B) Four (4)", correct: false},
-            {text: "(C) None (0)", correct: true},
-            {text: "(D) Seven (7)", correct: false},
+            {text: "(A) Bethlehem (12)", correct: false},
+            {text: "(B) Jerusalem (4)", correct: false},
+            {text: "(C) Egypt (0)", correct: true},
+            {text: "(D) Rome (7)", correct: false},
         ]
     },
 
     {
-        question: "Name the place where Jesus walked on water?",
+        question: "Who was Melchizedek?",
         answers: [
-            {text: "(A) Sea of Galilee", correct: true},
-            {text: "(B) Red Sea", correct: false},
-            {text: "(C) Atlantic Ocean", correct: false},
-            {text: "(D) Bethesda", correct: false},
+            {text: "(A) Priest of God and King of Salem", correct: true},
+            {text: "(B) King of Egypt", correct: false},
+            {text: "(C) Priest of God and King of Babylon", correct: false},
+            {text: "(D) Apostle in the church", correct: false},
         ]
     },
 
     {
-        question: "Who baptized Jesus?",
+        question: "How old were Abraham and Sarah when Isaac was born?",
         answers: [
-            {text: "(A) Paul Apostle", correct: false},
-            {text: "(B) John the Baptist", correct: true},
-            {text: "(C) Jesus Brother", correct: false},
-            {text: "(D) Peter", correct: false},
+            {text: "(A) Abraham was 101 and Sarah was 90 years old", correct: false},
+            {text: "(B) Abraham was 100 and Sarah was 90 years old", correct: true},
+            {text: "(C) Abraham was 100 and Sarah was 91 years old", correct: false},
+            {text: "(D) Abraham was 100 and Sarah was 99 years old", correct: false},
         ]
     },
 
     {
-        question: "Who spoke from the sky when Jesus was baptized?",
+        question: "Who else was in prison with Joseph?",
         answers: [
-            {text: "(A) Angel", correct: false},
-            {text: "(B) Dove", correct: false},
-            {text: "(C) God", correct: true},
-            {text: "(D) Jesus Mother", correct: false},
+            {text: "(A) Pharaoh’s cupbearer and his nephew", correct: false},
+            {text: "(B) Pharaoh’s gateman and chief baker", correct: false},
+            {text: "(C) The Pharaoh’s cupbearer and chief baker", correct: true},
+            {text: "(D) Pharaoh’s Son", correct: false},
         ]
     },
 
     {
-        question: "What did God say?",
+        question: "Who was the first king of Israel?",
         answers: [
-            {text: "(A) That he was well-pleased with his son.", correct: true},
-            {text: "(B) That he can laugh", correct: false},
-            {text: "(C) That he can swim", correct: false},
-            {text: "(D) That he baptized too early", correct: false},
+            {text: "(A) Saul", correct: true},
+            {text: "(B) Jacob", correct: false},
+            {text: "(C) Paul", correct: false},
+            {text: "(D) Timothy", correct: false},
         ]
     },
 
     {
-        question: "What happened when Jesus went into the wilderness?",
+        question: "Who was the king of Israel anointed by Samuel after Saul?",
         answers: [
-            {text: "(A) He was asleep.", correct: false},
-            {text: "(B) Nothing happen", correct: false},
-            {text: "(C) He was preaching", correct: false},
-            {text: "(D) He was tempted by Satan", correct: true},
+            {text: "(A) Solomon.", correct: false},
+            {text: "(B) Absalom", correct: false},
+            {text: "(C) Aaron", correct: false},
+            {text: "(D) David", correct: true},
         ]
     },
 
     {
-        question: "Name Jesus’ hometown?",
+        question: "Who was David’s son that became king?",
         answers: [
-            {text: "(A) Heaven", correct: false},
-            {text: "(B) Rome", correct: false},
-            {text: "(C) Nazareth", correct: true},
-            {text: "(D) Jerusalem", correct: false},
+            {text: "(A) Absalom", correct: false},
+            {text: "(B) Adonijah", correct: false},
+            {text: "(C) Solomon", correct: true},
+            {text: "(D) Amnon", correct: false},
         ]
     },
 
     {
-        question: "What did Jesus turned water into?",
+        question: "What trait did Solomon pray for from God?",
         answers: [
-            {text: "(A) Coca-Cola", correct: false},
-            {text: "(B) Wine", correct: true},
-            {text: "(C) Juice", correct: false},
-            {text: "(D) Water", correct: false},
+            {text: "(A) Blessing", correct: false},
+            {text: "(B) Wisdom", correct: true},
+            {text: "(C) Wealth", correct: false},
+            {text: "(D) Sick family", correct: false},
         ]
     },
 
     {
-        question: "Besides preaching, name an activity Jesus did while traveling in Galilee?",
+        question: "What happened to the kingdom after Solomon’s rule?",
         answers: [
-            {text: "(A) Healing the sick and casting out demons", correct: true},
-            {text: "(B) Revival", correct: false},
-            {text: "(C) Fishing", correct: false},
-            {text: "(D) Fighting", correct: false},
+            {text: "(A) It split in two", correct: true},
+            {text: "(B) Destroyed", correct: false},
+            {text: "(C) Blessed", correct: false},
+            {text: "(D) It split in three", correct: false},
         ]
     },
 
     {
-        question: "What was Matthew before he followed Jesus?",
+        question: "Which books of the Bible did Solomon write?",
         answers: [
-            {text: "(A) A tax collector", correct: true},
-            {text: "(B) A lecturer", correct: false},
-            {text: "(C) An Hockey Player", correct: false},
-            {text: "(D) A Trader", correct: false},
+            {text: "(A) Song of Solomon and Proverbs and some Psalms", correct: true},
+            {text: "(B) Song of Solomon and Proverbs and Psalms", correct: false},
+            {text: "(C) Psalms", correct: false},
+            {text: "(D) Proverbs and Psalms", correct: false},
         ]
     },
 
     {
-        question: "Why did Jesus weep in that verse?",
+        question: "Who killed Absalom?",
         answers: [
-            {text: "(A) Because his father died", correct: false},
-            {text: "(B) Because he was hungry", correct: false},
-            {text: "(C) Because his friend Lazarus died", correct: true},
-            {text: "(D) Because his mother died", correct: false},
+            {text: "(A) Jacob", correct: false},
+            {text: "(B) Esau", correct: false},
+            {text: "(C) Joab", correct: true},
+            {text: "(D) Saul", correct: false},
         ]
     },
 
@@ -380,22 +440,22 @@ const all_questions = [
     },
 
     {
-        question: "What problem did Bartimaeus have that Jesus fixed?",
+        question: "What capital city did David abandon as Absalom came towards it?",
         answers: [
-            {text: "(A) He was blind", correct: true},
-            {text: "(B) He was crying", correct: false},
-            {text: "(C) He was stubborn", correct: false},
-            {text: "(D) None", correct: false},
+            {text: "(A) Jerusalem", correct: true},
+            {text: "(B) Babylon", correct: false},
+            {text: "(C) Jordan", correct: false},
+            {text: "(D) Egypt", correct: false},
         ]
     },
 
     {
-        question: "How many people did Jesus feed with fish and bread?",
+        question: "How many times did David spare Saul’s life?",
         answers: [
-            {text: "(A) 10,000 people", correct: false},
-            {text: "(B) 7,000 people", correct: false},
-            {text: "(C) 5,000 people", correct: true},
-            {text: "(D) 500 people", correct: false},
+            {text: "(A) One time", correct: false},
+            {text: "(B) Three times", correct: false},
+            {text: "(C) Twice", correct: true},
+            {text: "(D) Never", correct: false},
         ]
     }
 ];
@@ -492,87 +552,3 @@ function startQuiz(){
 }
 
 startQuiz();
-
-
-
-
-        
-
-
-
-
-// {
-//     question: "What four books tell about Jesus life on Earth?",
-//     answers: [
-//         {text: "(A) Matthew, Revelation, Mark, John", correct: false},
-//         {text: "(B) Matthew, Mark, Luke, John", correct: true},
-//         {text: "(C) Genesis, 1 John, Luke, Mark", correct: false},
-//         {text: "(D) Matthew, Mark, Luke, 2 John", correct: false}, 
-//     ]
-// },
-
-
-// {
-//     question: "What is the longest book in the Bible?",
-//     answers: [
-//         {text: "(A) Psalms", correct: true},
-//         {text: "(B) Exodus", correct: false},
-//         {text: "(C) Genesis", correct: false},
-//         {text: "(A) Numbers", correct: false},
-//     ]
-// },
-
-
-// {
-//     question: "How many books are in the Bible?",
-//     answers: [
-//         {text: "(A) 52", correct: false},
-//         {text: "(B) 70", correct: false},
-//         {text: "(C) 50", correct: false},
-//         {text: "(A) 66", correct: true},
-//     ] 
-// },
-
-
-// {
-//     question: "How many books in the Old Testament?",
-//     answers: [
-//         {text: "(A) 39 books in the OT", correct: true},
-//         {text: "(B) 32 books in the OT", correct: false},
-//         {text: "(C) 30 books in the OT", correct: false},
-//         {text: "(D) 40 books in the OT", correct: false},
-//     ]  
-// },
-   
-
-// {
-//     question: "What is the last book in the Bible?",
-//     answers: [
-//         {text: "(A) Revelation", correct: true},
-//         {text: "(B) Hebrews", correct: false},
-//         {text: "(C) Genesis", correct: false},
-//         {text: "(A) Jude", correct: false},
-//     ] 
-// },
-
-
-// {
-//     question: "In what language was most of the Old Testament given?",
-//     answers: [
-//         {text: "(A) Hebrew", correct: true},
-//         {text: "(B) Greek", correct: false},
-//         {text: "(C) English", correct: false},
-//         {text: "(A) Spanish", correct: false},
-//     ]  
-// },
-
-
-// {
-//     question: "What is the first book in the Bible?",
-//     answers: [
-//         {text: "(A) Matthew", correct: false},
-//         {text: "(B) Exodus", correct: false},
-//         {text: "(C) Genesis", correct: true},
-//         {text: "(D) Jesus", correct: false},
-//     ]
-// },

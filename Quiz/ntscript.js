@@ -496,4 +496,6 @@ function startQuiz(){
     showQuestion();
 }
 
+startQuiz();
+
 

@@ -220,16 +220,6 @@ const all_questions = [
     },
 
     {
-        question: "What tribe is Paul from??",
-        answers: [
-            {text: "(A) Jacob", correct: false},
-            {text: "(B) Isaac", correct: false},
-            {text: "(C) Benjamin", correct: true},
-            {text: "(D) Jacob", correct: false},
-        ]
-    },
-
-    {
         question: "In the Gospel According to John, which apostle doubts Jesus’ resurrection until he sees Jesus with his own eyes?",
         answers: [
             {text: "(A) Thomas", correct: true},
