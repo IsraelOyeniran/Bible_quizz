@@ -90,7 +90,7 @@ const all_questions = [
     },
 
     {
-        question: "Which NT book has Jesus' Sermon on the Mount?",
+        question: "Which New T book has Jesus' Sermon on the Mount?",
         answers: [
             {text: "(A) Mark", correct: false},
             {text: "(B) Judge", correct: false},
