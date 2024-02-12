@@ -1,6 +1,6 @@
 nav.index {
     margin-left: center;
-    background-color: rgb(221, 245, 85);
+    background-color: #80BCBD;
     display: flex;
     display: 0;
     height: 90px;
@@ -25,7 +25,7 @@ h1 {
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.678);
+    background-color: #DCF2F1;
     background-position-x: center;
     background-position-y: center;
 }
@@ -35,7 +35,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #0F1035;
   }
   
   li {
@@ -51,16 +51,16 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #DCF2F1;
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #365486;
   }
 
 a {
     text-decoration: none; 
-    color: #000000; 
+    color: #ffffff; 
     font-weight: bold   ;
     padding: auto;
     padding-right: 1%;
@@ -77,13 +77,13 @@ a {
 .box {
     border-radius: 40px;
     max-width: 850px;
-    background-color: rgb(221, 245, 85);
+    background-color: #80BCBD;
     margin: auto;
     padding: 50px;
     border-style: outset;
-    border-color: rgb(221, 245, 85); 
+    border-color: #80BCBD; 
     text-align: justify;
-    box-shadow: 20px 20px 2px #242414;
+    /* box-shadow: 20px 20px 2px #242414; */
 }
 
 .select {
@@ -101,13 +101,13 @@ a {
   }
   
 .grid-container > div {
-    background-color: #04AA6D;
+    background-color: #0F1035;
     text-align: center;
     padding: 10px 0;
     font-size: 20px;
     border-color: black;
     border-radius: 10px;
-    box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
+    /* box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9); */
   }
 
 a:hover {
@@ -120,7 +120,7 @@ h2:hover {
 
 nav.index2 {
     margin-left: center;
-    background-color: rgb(221, 245, 85);
+    background-color: #80BCBD;
     display: flex;
     display: 0;
     height: 20px;
