@@ -25,9 +25,9 @@ nav.view {
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.678);
-    background-position-x: center;
-    background-position-y: center;
+  background-color: #DCF2F1;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 ul {
@@ -35,7 +35,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #0F1035;
   }
   
   li {
@@ -51,16 +51,16 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #DCF2F1;
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #365486;
   }
 
 a {
     text-decoration: none; 
-    color: #000000; 
+    color: #ffffff; 
     font-weight: bold   ;
     padding: auto;
     padding-right: 1%;

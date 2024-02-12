@@ -110,7 +110,7 @@ const all_questions = [
     },
 
     {
-        question: "What was the first thing that God created? ",
+        question: "What was the first thing that God created?",
         answers: [
             {text: "(A) Sun", correct: false},
             {text: "(B) Water", correct: false},
@@ -120,7 +120,7 @@ const all_questions = [
     },
 
     {
-        question: "Which day did God create plants? ",
+        question: "Which day did God create plants?",
         answers: [
             {text: "(A) Third", correct: true},
             {text: "(B) First", correct: false},
@@ -130,7 +130,7 @@ const all_questions = [
     },
 
     {
-        question: "What was the boat Noah built called? ",
+        question: "What was the boat Noah built called?",
         answers: [
             {text: "(A) War ship", correct: false},
             {text: "(B) An ark", correct: true},
@@ -140,7 +140,7 @@ const all_questions = [
     },
 
     {
-        question: "How many of each type of animal did Noah have on the ark? ",
+        question: "How many of each type of animal did Noah have on the ark?",
         answers: [
             {text: "(A) Seven", correct: false},
             {text: "(B) One", correct: false},
@@ -312,20 +312,20 @@ const all_questions = [
     {
         question: "Who was Abraham's wife?",
         answers: [
-            {text: "(A) Rebecca (12)", correct: false},
-            {text: "(B) Sarah (4)", correct: true},
-            {text: "(C) Naomi (0)", correct: false},
-            {text: "(D) Ruth (7)", correct: false},
+            {text: "(A) Rebecca", correct: false},
+            {text: "(B) Sarah", correct: true},
+            {text: "(C) Naomi", correct: false},
+            {text: "(D) Ruth", correct: false},
         ]
     },
 
     {
         question: "To what country did Abraham go in time of famine?",
         answers: [
-            {text: "(A) Bethlehem (12)", correct: false},
-            {text: "(B) Jerusalem (4)", correct: false},
-            {text: "(C) Egypt (0)", correct: true},
-            {text: "(D) Rome (7)", correct: false},
+            {text: "(A) Bethlehem", correct: false},
+            {text: "(B) Jerusalem", correct: false},
+            {text: "(C) Egypt", correct: true},
+            {text: "(D) Rome", correct: false},
         ]
     },
 
@@ -372,7 +372,7 @@ const all_questions = [
     {
         question: "Who was the king of Israel anointed by Samuel after Saul?",
         answers: [
-            {text: "(A) Solomon.", correct: false},
+            {text: "(A) Solomon", correct: false},
             {text: "(B) Absalom", correct: false},
             {text: "(C) Aaron", correct: false},
             {text: "(D) David", correct: true},
@@ -430,16 +430,6 @@ const all_questions = [
     },
 
     {
-        question: "How many days was Lazarus dead before Jesus came to visit?",
-        answers: [
-            {text: "(A) Seven days", correct: false},
-            {text: "(B) Nine days", correct: false},
-            {text: "(C) One day", correct: false},
-            {text: "(D) Four days", correct: true},
-        ]
-    },
-
-    {
         question: "What capital city did David abandon as Absalom came towards it?",
         answers: [
             {text: "(A) Jerusalem", correct: true},
@@ -469,6 +459,7 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let questionsFinished = 0;
 let score = 0;
+let max_questions = 25;
 
 function getRandomInt(max){
     return Math.floor(Math.random() * max);
@@ -520,15 +511,18 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `You Scored ${score} out of ${questions.length}!`;
+    // questionElement.innerHTML = `You Scored ${score} out of ${all_questions.length}!`;
+    questionElement.innerHTML = `You Scored ${score} out of ${max_questions}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
     questionsFinished = 0;
 }
 
 function handleNextButton(){
-    currentQuestionIndex++;
-    if(currentQuestionIndex < questions.length){
+    questions.splice(currentQuestionIndex, 1);
+    currentQuestionIndex = getRandomInt(questions.length);
+    // if(currentQuestionIndex < questions.length){
+    if(questionsFinished < max_questions){
         showQuestion();
     }else{
         showScore();

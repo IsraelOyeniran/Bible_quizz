@@ -415,7 +415,6 @@ function getRandomInt(max){
     return Math.floor(Math.random() * max);
 }
 
-
 function showQuestion(){
     resetState();
     questionsFinished += 1;
