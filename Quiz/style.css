@@ -69,13 +69,12 @@ a {
 .box {
     border-radius: 40px;
     max-width: 850px;
-    background-color: rgb(221, 245, 85);
+    background-color: #80BCBD;
     margin: auto;
     padding: 50px;
     border-style: outset;
-    border-color: rgb(221, 245, 85); 
+    border-color: #80BCBD;
     text-align: justify;
-    box-shadow: 20px 20px 2px #242414; 
 }
 
 .app {
@@ -175,7 +174,7 @@ a:hover {
 
 nav.quiz2 {
     margin-left: center;
-    background-color: rgb(221, 245, 85);
+    background-color: #80BCBD;
     display: flex;
     display: 0;
     height: 20px;

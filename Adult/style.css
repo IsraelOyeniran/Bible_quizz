@@ -83,7 +83,7 @@ a {
 }
   
 .grid-container > div {
-  background-color: #04AA6D;
+  background-color: #0F1035;
   text-align: center;
   padding: 10px;
   font-size: 20px;
@@ -95,23 +95,22 @@ a {
 .box {
   border-radius: 40px;
   max-width: 850px;
-  background-color: rgb(221, 245, 85);
+  background-color: #80BCBD;
   margin: auto;
   padding: 50px;
   padding-top: 10px;
   border-style: outset;
-  border-color: rgb(221, 245, 85); 
+  border-color: #80BCBD; 
   text-align: justify;
   box-shadow: 20px 20px 2px #242414;  border-radius: 40px;
   max-width: 850px;
-  background-color: rgb(221, 245, 85);
+  background-color: #80BCBD;
   margin: auto;
   padding: 50px;
   padding-top: 10px;
   border-style: outset;
-  border-color: rgb(221, 245, 85); 
+  border-color: #80BCBD; 
   text-align: justify;
-  box-shadow: 20px 20px 2px #242414;
 }
 
 p {

@@ -83,7 +83,6 @@ a {
     border-style: outset;
     border-color: #80BCBD; 
     text-align: justify;
-    /* box-shadow: 20px 20px 2px #242414; */
 }
 
 .select {
@@ -120,7 +119,7 @@ h2:hover {
 
 nav.index2 {
     margin-left: center;
-    background-color: #80BCBD;
+    background-color: #0F1035;
     display: flex;
     display: 0;
     height: 20px;
