@@ -25,7 +25,6 @@ function nextVerse() {
     const verseLink = document.getElementById("verseLink")
     verseLink.innerHTML = (current_verse+1).toString()+": "+verse
    
-
     const verseText = document.getElementById("verseText")
 
     fetchVerse(verses[current_verse]).then((data) => {

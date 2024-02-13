@@ -9,7 +9,14 @@ nav.child {
     border-width: 0px;
     border-color: rgba(54, 54, 54, 0.589); 
     color:rgb(0, 0, 0); 
-    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);      
+    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5); 
+    
+    h1 {
+        font-size: 40px;
+        padding-left: 23%;
+        padding-top: auto;
+        display: flex;
+    }
 }
 
 .logo {
@@ -44,11 +51,11 @@ ul {
   }
   
   li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #DCF2F1;
   }
   
   .active {
-    background-color: #04AA6D;
+    background-color: #365486;
   }
 
 .h3 {
@@ -57,7 +64,7 @@ ul {
 
 a {
     text-decoration: none; 
-    color: #000000; 
+    color: #ffffff; 
     font-weight: bold   ;
     padding: auto;
     padding-right: 1%;
@@ -82,26 +89,26 @@ a {
     border-color: #80BCBD;
     text-align: justify;
 
-    box.h4 {
+    box.h1 {
         text-align: center;
     }
 }
 
-.border h3 {
+/* .border h3 {
     text-align: center;
     background-color: #04AA6D;
-}
+} */
 
 .box b {
     margin: auto;
     text-align: left;
     font-size: 100px;
     margin: right;
-    color: #ff004c;
+    color: #f7f3f4;
     }
 
 nav {
-    background-color: #04AA6D;
+    background-color: #0F1035;
     border-style: outset;
     border-width: 0;
     border-color: rgb(0, 0, 0);
@@ -132,22 +139,19 @@ p {
     font-size: 20px;
     border-color: black;
     border-radius: 10px;
-    box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
   }
 
-.equal-button {
+  /* .equal-button {
     width: 200px;
     height: 30px; 
     font-weight: bolder;
     text-align: center;
     font-size: 16px;
-    background-color: #04AA6D;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-    border-color: black;
-    box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
-}
+    background-color: rgba(54, 54, 54, 0.589); 
+    color: #ffffff; 
+    cursor: pointer;
+    margin: 5px; 
+} */
 
 a:hover {
     color: rgb(255, 0, 0);
