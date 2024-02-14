@@ -20,7 +20,7 @@ async function fetchVerse(verseName){
 function nextVerse() {
     verse = verses[current_verse]
     const boldedNumbers = document.getElementById("boldedNumbers")
-    boldedNumbers.innerHTML = verse
+    // boldedNumbers.innerHTML = verse
 
     const verseLink = document.getElementById("verseLink")
     verseLink.innerHTML = (current_verse+1).toString()+": "+verse
@@ -28,7 +28,7 @@ function nextVerse() {
     const verseText = document.getElementById("verseText")
 
     fetchVerse(verses[current_verse]).then((data) => {
-            console.log(data)
+            // console.log(data)
             verseText.innerHTML = data.text
         }
     )

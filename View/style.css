@@ -122,17 +122,17 @@ a:hover {
 }
 
 nav.view2 {
-  margin-left: center;
-  background-color: #0F1035;
-  display: flex;
-  display: 0;
-  height: 20px;
-  max-width: auto;
-  border-style: outset 0;
-  border-width: 3px;
-  border-color: rgba(54, 54, 54, 0.589); 
-  color:rgb(0, 0, 0); 
-  box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
+    margin-left: center;
+    background-color: #0F1035;
+    display: flex;
+    display: 0;
+    height: 20px;
+    max-width: auto;
+    border-style: outset 0;
+    border-width: 3px;
+    border-color: rgba(54, 54, 54, 0.589); 
+    color:rgb(0, 0, 0); 
+    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);    
 }
 
 #carosel {
@@ -161,7 +161,7 @@ nav.view2 {
 }
 
 #closeButton {
-  background-color: #04AA6D;
+  background-color: #80BCBD;
   padding: 10px;
   border-radius: 10px;
   max-width: 500px;
@@ -170,7 +170,7 @@ nav.view2 {
 }
 
 button {
-  background-color: rgb(34, 34, 34);
+  background-color: #365486;
   color: rgb(255, 255, 255);
   font-weight: bolder;
   font-size: medium;
@@ -183,5 +183,5 @@ button {
 
 button:hover {
   opacity: 0.8;
-  background-color: #04AA6D;
+  background-color: #0F1035;
 }
