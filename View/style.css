@@ -122,17 +122,17 @@ a:hover {
 }
 
 nav.view2 {
-    margin-left: center;
-    background-color: #0F1035;
-    display: flex;
-    display: 0;
-    height: 20px;
-    max-width: auto;
-    border-style: outset 0;
-    border-width: 3px;
-    border-color: rgba(54, 54, 54, 0.589); 
-    color:rgb(0, 0, 0); 
-    box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
+  margin-left: center;
+  background-color: #0F1035;
+  display: flex;
+  display: 0;
+  height: 20px;
+  max-width: auto;
+  border-style: outset 0;
+  border-width: 3px;
+  border-color: rgba(54, 54, 54, 0.589); 
+  color:rgb(0, 0, 0); 
+  box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
 }
 
 #carosel {
