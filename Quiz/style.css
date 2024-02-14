@@ -75,6 +75,14 @@ a {
     border-style: outset;
     border-color: #80BCBD;
     text-align: justify;
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        font-size: 23px
+    }
 }
 
 .app {
@@ -86,7 +94,7 @@ a {
     padding: 50px; 
 
     h3 {
-        font-weight: 1000px;
+        font-weight: 10px;
         color: #000000;
         font-size: 25px;
         padding-bottom: 30px;
@@ -106,6 +114,7 @@ b {
     font-size: 18px;
     color: #000000;
     font-weight: 600;
+    text-align: justify;
 }
 
 .btn {
@@ -123,7 +132,7 @@ b {
 }
 
 .btn:hover:not([disabled]){
-    background: #0e0d0d;
+    background: #001e4d;
     color: #ffffff;
 }
 
