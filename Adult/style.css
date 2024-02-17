@@ -89,8 +89,7 @@ a {
   font-size: 20px;
   border-color: black;
   border-radius: 10px;
-  box-shadow: 5px 5px 2px 2px rgba(9, 9, 9, 9);
-}
+ }
 
 .box {
   border-radius: 40px;
@@ -102,7 +101,8 @@ a {
   border-style: outset;
   border-color: #80BCBD; 
   text-align: justify;
-  box-shadow: 20px 20px 2px #242414;  border-radius: 40px;
+  /* box-shadow: 20px 20px 2px #242414;   */
+  border-radius: 40px;
   max-width: 850px;
   background-color: #80BCBD;
   margin: auto;
@@ -140,3 +140,17 @@ a:hover {
 a:hover {
   color: rgb(255, 0, 0);
 } 
+
+nav.adults2 {
+  margin-left: center;
+  background-color: #0F1035;
+  display: flex;
+  display: 0;
+  height: 20px;
+  max-width: auto;
+  border-style: outset 0;
+  border-width: 0px;
+  border-color: rgba(54, 54, 54, 0.589); 
+  color:rgb(0, 0, 0); 
+  box-shadow: 1px 5px 5px 1px rgba(5, 2, 2, 5);     
+}
